@@ -1,0 +1,225 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym} % additional symbols for technical documents
+\usepackage[empty]{fullpage}
+\usepackage{titlesec} % custom format of section titles
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem} % custom list environments
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr} % custom headers and footers
+\usepackage[english]{babel} % multilingual support
+\usepackage{tabularx} 
+\usepackage{mathptmx} % decfault font used: Times New Roman
+\usepackage{setspace}
+\setstretch{1.15}
+\input{glyphtounicode} % PDF output to ensure proper mapping of glyphs to Unicode characters
+
+% fancy
+\pagestyle{fancy}
+\fancyhf{} % clear header and footer fields
+\fancyfoot{}
+\setlength{\footskip}{1cm}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% sections formatting
+\titleformat{\section}{
+  \vspace{-12pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% ==============================
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r@{\hspace{-0.2in}}}
+        \textbf{#1} & #2 \\
+        \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-0pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r@{\hspace{-0.2in}}}
+        \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r@{\hspace{-0.2in}}}
+        \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.00in, rightmargin=-0.2in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% ==============================
+
+\begin{document}
+
+% -----------HEADING-----------
+\begin{center}
+    \textbf{\Huge \scshape {Juhun Park}} \\ \vspace{1pt}
+    \small 202-924-4546 $\cdot$ 
+    \href{mailto:riann3207@gmail.com}{\underline{juhunpark32@gmail.com}} $\cdot$
+    \href{https://linkedin.com/in/juhun-park}{\underline{linkedin.com/in/juhun-park}} $\cdot$
+    \href{https://github.com/juhun32}{\underline{github.com/juhun32}} \\
+\end{center}
+
+% \small{\textbf{Relevant Links: }\href{https://linkedin.com/in/juhun-park}{\underline{linkedin.com/in/juhun-park}} $|$
+            % \href{https://github.com/juhun32}{\underline{github.com/juhun32}}} \\
+
+% -----------EDUCATION-----------
+\section{Education}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {Northern Virginia Community College}{Annandale, VA}
+            {AS Computer Science, GPA: 3.9; Dean's List (All Semesters)}{Expected May 2025} \\
+            % {Aug 2023 -- May 2025}
+        \resumeSubheading
+            {George Mason University}{Fairfax, VA}
+            {ADVANCE Student, BS Computer Science}{Expected May 2027}
+        
+        \resumeItem{\textbf{Relevant Courses: }{Problem Solving and Programming, Object Oriented Programming, Data Structures and Analysis of Algorithms}}
+    \resumeSubHeadingListEnd
+
+% -----------TECHNICAL SKILLS-----------
+\section{Skills}
+    % \textbf{}
+    \vspace*{3pt}
+    \begin{itemize}[leftmargin=0in, label={}]
+        \small{\item{
+            \textbf{Languages: }{Python, Java, JavaScript, HTML, CSS} \\
+            \textbf{Frameworks: }{NumPy, Tensorflow, Keras, Pytorch, React, Node.js, FastAPI} \\
+            \textbf{Technologies: }{Git, LaTex, VS Code, Eclipse} \\
+            \textbf{Certifications: }{\href{https://www.codepath.org/}{CodePath} Advanced Technical Interview Prep (June 2024 - Present), HackerRank Python Basic (2024)} \\
+            % \vspace{-5pt}
+        }}
+    \end{itemize}
+
+% -----------EXPERIENCE-----------
+% \section{Experience}
+%     \resumeSubHeadingListStart
+
+%         \resumeSubheading
+%             {Undergraduate Research Assistant}{June 2020 -- Present}
+%             {Texas A\&M University}{College Station, TX}
+%         \resumeItemListStart
+%             \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
+%             \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
+%             \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+%         \resumeItemListEnd
+
+%         \resumeSubheading
+%             {Information Technology Support Specialist}{Sep. 2018 -- Present}
+%             {Southwestern University}{Georgetown, TX}
+%         \resumeItemListStart
+%             \resumeItem{Communicate with managers to set up campus computers used on campus}
+%             \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+%             \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+%         \resumeItemListEnd
+
+%         \resumeSubheading
+%             {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+%             {Southwestern University}{Georgetown, TX}
+%         \resumeItemListStart
+%             \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+%             \resumeItem{Developed a game in Java to test the generated dungeons}
+%             \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+%             \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+%             \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+%             \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+%         \resumeItemListEnd
+
+%     \resumeSubHeadingListEnd
+
+% -----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\textbf{AI model build: } $|$ \emph{HTML, CSS, JavaScript, Git}}{2024}
+            \resumeItemListStart
+                \resumeItem{Developed a --- to --- during free time for a previous job}
+                \resumeItem{Published --- to websites gaining 2K+ downloads and an average 4.5/5-star review}
+                \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+                \resumeItem{Utilized: }
+            \resumeItemListEnd
+        \resumeProjectHeading
+            {\textbf{Hand Motion-Controlled Mouse} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2024 -- August 2024}
+            \resumeItemListStart
+                \resumeItem{Developed a motion-control system that utilizes the MediaPipe library to allow users to control the cursor using hand gestures}
+                \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
+                \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+                \resumeItem{Developed a responsive frontend using HTML, CSS, and JavaScript, set up a SQLite database to store user data and preferences}
+                \resumeItem{Utilized: }
+            \resumeItemListEnd
+        \resumeProjectHeading
+            {\textbf{Portfolio Template Website} $|$ \emph{HTML, CSS, JavaScript, Git} $|$ \href{https://github.com/juhun32/portfolio-template-project}{\textbf{Demo}: github}}{April 2024 -- May 2024}
+            \resumeItemListStart
+                \resumeItem{Created a user-friendly and customizable portfolio template website using HTML, CSS, and JavaScript with two of my peers.}
+                \resumeItem{Focused on responsive design to ensure optimal performance on desktops, tablets, and mobile devices.}
+                \resumeItem{Deployed the project on GitHub and made it available for public use.}
+                \resumeItem{Utilized: HTML, CSS, JavaScript}
+            \resumeItemListEnd
+        \resumeProjectHeading
+            {\textbf{Tetris Clone Game} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2023}
+            \resumeItemListStart
+                \resumeItem{Developed a fully functional Tetris clone using Java and Java UI (Swing/JavaFX) during free time for my classmates.}
+                \resumeItem{Published --- to websites gaining 2K+ downloads and an average 4.5/5-star review}
+                \resumeItem{Implemented classic Tetris gameplay mechanics including piece rotation, line clearing, and level progression.}
+                \resumeItem{Added score tracking and high score saving functionality using PostgreSQL}
+                \resumeItem{Utilized: }
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+% ----------- EXPERIENCE & ACTIVITIES -----------
+
+\section{Experience \& Activities}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\textbf{CodePath Interview Prep Course} $|$ \emph{Intermediate Level}}{May 2024 -- August 2024}
+            \resumeItemListStart
+                \resumeItem{Selected as one of 1000 participants nationwide for this 10-week professional development program for high-achieving diverse talent based on leadership potential and academic success.}
+            \resumeItemListEnd
+        \resumeSubHeadingListEnd
+        % \vspace*{-20pt}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\textbf{Software Developer Student Club} at Gimpo Highschool $|$ \emph{Club President}}{August 2020 -- March 2022}
+            \resumeItemListStart
+                \resumeItem{Collaborated with peers in the development and presentation of an animated projection featuring real-time user facial and body motion tracking using python3 mediapipe library.}
+            \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+\end{document}
