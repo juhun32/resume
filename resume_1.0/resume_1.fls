@@ -1,8 +1,8 @@
-PWD c:/DevFiles/src-others/resume/resume_general/resume_1
+PWD c:/DevFiles/resume/resume_1.0
 INPUT c:/DevTools/texlive/2024/texmf.cnf
 INPUT c:/DevTools/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/DevTools/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/DevFiles/src-others/resume/resume_general/resume_1/resume_1.tex
+INPUT c:/DevFiles/resume/resume_1.0/resume_1.tex
 OUTPUT resume_1.log
 INPUT c:/DevTools/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/DevTools/texlive/2024/texmf-dist/tex/latex/base/article.cls
