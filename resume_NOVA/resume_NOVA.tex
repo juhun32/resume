@@ -18,7 +18,7 @@
 \usepackage{tabularx} 
 \usepackage{mathptmx} % decfault font used: Times New Roman
 \usepackage{setspace}
-\setstretch{1.1}
+\setstretch{1.15}
 \input{glyphtounicode} % PDF output to ensure proper mapping of glyphs to Unicode characters
 
 % fancy
@@ -45,7 +45,7 @@
 % sections formatting
 \titleformat{\section}{
   \vspace{-12pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -55,7 +55,7 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-1pt}}
+    {#1 \vspace{-2pt}}
   }
 }
 
@@ -81,13 +81,13 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.00in, rightmargin=-0.2in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 % ==============================
 
@@ -109,13 +109,12 @@
 \section{Education}
     \resumeSubHeadingListStart
         \resumeSubheading
-            {George Mason University}{Fairfax, VA}
-            {ADVANCE Student, BS Computer Science}{Expected May 2027}
-
-        \resumeSubheading
             {Northern Virginia Community College}{Annandale, VA}
             {AS Computer Science, GPA: 3.9; Dean's List (All Semesters)}{Expected May 2025} \\
             % {Aug 2023 -- May 2025}
+        \resumeSubheading
+            {George Mason University}{Fairfax, VA}
+            {ADVANCE Student, BS Computer Science}{Expected May 2027}
         
         \resumeItem{\textbf{Relevant Courses: }{Problem Solving and Programming, Object Oriented Programming, Data Structures and Analysis of Algorithms}}
     \resumeSubHeadingListEnd
@@ -194,47 +193,26 @@
         %     \resumeItemListEnd
 
         \resumeProjectHeading
-            {\textbf{Formula 1 Fantasy Points System Rework} {}}{}
-            % $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2024 -- August 2024}
-            \resumeItemListStart
-                \resumeItem{Utilized: }
-                \resumeItem{Developed a motion-control system that utilizes the MediaPipe library to allow users to control the cursor using hand gestures}
-                \resumeItem{Implemented a full-stack web application using with Flask serving a REST API with React as the frontend}
-                \resumeItem{Accomplished a responsive frontend using HTML, CSS, and JavaScript, set up a SQLite database to store user data and preferences}            
-            \resumeItemListEnd
-
-        \resumeProjectHeading
-            {\textbf{Discord Text-To-Speach Bot} {}}{}
-            % $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2023}
-            \resumeItemListStart
-                \resumeItem{Utilized: Java}
-                \resumeItem{Developed a fully functional Tetris clone using Java and Java UI (Swing/JavaFX) during free time for my classmates.}
-                \resumeItem{Published --- to websites gaining 2K+ downloads and an average 4.5/5-star review}
-                \resumeItem{Implemented classic Tetris gameplay mechanics including piece rotation, line clearing, and level progression.}
-                \resumeItem{Added score tracking and high score saving functionality using PostgreSQL}
-            \resumeItemListEnd
-
-        \resumeProjectHeading
-            {\textbf{Windows Sticky Note With Google Calendar API} {}}{}
-            % $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2024 -- August 2024}
-            \resumeItemListStart
-                \resumeItem{Utilized: }
-                \resumeItem{Developed a motion-control system that utilizes the MediaPipe library to allow users to control the cursor using hand gestures}
-                \resumeItem{Implemented a full-stack web application using with Flask serving a REST API with React as the frontend}
-                \resumeItem{Accomplished a responsive frontend using HTML, CSS, and JavaScript, set up a SQLite database to store user data and preferences}            
-            \resumeItemListEnd
-        
-        \resumeProjectHeading
-            {\textbf{Portfolio Template Website} $|$ \href{https://github.com/juhun32/portfolio-template-project}{\underline{GitHub Demo}}}{}
+            {\textbf{Portfolio Template Website} $|$ \href{https://github.com/juhun32/portfolio-template-project}{\underline{GitHub Demo}}}{April 2024 -- May 2024}
             % $|$ \emph{HTML, CSS, JavaScript, Git} 
             \resumeItemListStart
-                \resumeItem{Utilized: HTML, CSS, JavaScript, Git}
+                \resumeItem{Technologies Utilized: HTML, CSS, JavaScript, Git}
                 \resumeItem{Worked with 2 peers to create a user-friendly and customizable portfolio template website using HTML, CSS, and JavaScript.}
                 \resumeItem{Focused on responsive design to ensure optimal performance on desktops, tablets, and mobile devices.}
                 \resumeItem{Successfully deployed the project on GitHub with demo and made it available for public use.}
                 \resumeItem{Enhanced the usability of the template, receiving positive feedback from users for its ease of customization and responsive design.}
             \resumeItemListEnd
-            
+
+        % \resumeProjectHeading
+        %     {\textbf{Tetris Clone} {}}{2023}
+        %     % $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2023}
+        %     \resumeItemListStart
+        %         \resumeItem{Utilized: Java}
+        %         \resumeItem{Developed a fully functional Tetris clone using Java and Java UI (Swing/JavaFX) during free time for my classmates.}
+        %         \resumeItem{Published --- to websites gaining 2K+ downloads and an average 4.5/5-star review}
+        %         \resumeItem{Implemented classic Tetris gameplay mechanics including piece rotation, line clearing, and level progression.}
+        %         \resumeItem{Added score tracking and high score saving functionality using PostgreSQL}
+        %     \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 % ----------- EXPERIENCE & ACTIVITIES -----------
@@ -244,7 +222,7 @@
         \resumeProjectHeading
             {\textbf{CodePath Technical Interview Prep Course} $|$ \emph{TIP102; Intermediate Level}}{May 2024 -- Present}
             \resumeItemListStart
-                \resumeItem{Selected as one of 1000 participants nationwide for 10-week professional development program for high-achieving diverse talent based on leadership potential and academic success.}
+                \resumeItem{Selected as one of 1000 participants nationwide for this 10-week professional development program for high-achieving diverse talent based on leadership potential and academic success.}
             \resumeItemListEnd
         \resumeSubHeadingListEnd
 
@@ -252,9 +230,9 @@
 
     \resumeSubHeadingListStart
         \resumeProjectHeading
-            {\textbf{Himedia Academy Java Developer Course}}{January 2023 -- April 2023}
+            {\textbf{Java Developer Course} $|$ Himedia Academy}{January 2023 -- April 2023}
             \resumeItemListStart
-                \resumeItem{Back-end development course consisted of 10 participants, one-to-one teacher-student focused learning of basic Java development and Oracle DBMS development.}
+                \resumeItem{Back-end development course, consisted of basic Java, Oracle DBMS}
             \resumeItemListEnd
         \resumeSubHeadingListEnd
 
@@ -262,9 +240,9 @@
 
     \resumeSubHeadingListStart
         \resumeProjectHeading
-            {\textbf{Software Developer Student Club} of Gimpo Highschool $|$ \emph{Club President}}{August 2020 -- March 2022}
+            {\textbf{Software Developer Student Club} $|$ Gimpo Highschool $|$ \emph{Club President}}{August 2020 -- March 2022}
             \resumeItemListStart
-                \resumeItem{Managed 36 club members ensuring smooth progress of their projects, receiving positive feedback from peers and mentors.}
+                \resumeItem{Managed 36 club members, ensuring smooth progress of their projects, receiving positive feedback from peers and mentors.}
                 % \resumeItem{Worked with 2 peers to develop and present an animated projection featuring real-time user facial and body motion tracking using Python3 MediaPipe library.}
             \resumeItemListEnd
         \resumeSubHeadingListEnd
