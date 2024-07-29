@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.13)  29 JUL 2024 01:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.13)  29 JUL 2024 09:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/DevFiles/resume/resume_1.0/resume_1.tex
-(c:/DevFiles/resume/resume_1.0/resume_1.tex
+**c:/DevFiles/resume/resume_wolftrap/resume_wolftrap.tex
+(c:/DevFiles/resume/resume_wolftrap/resume_wolftrap.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
 (c:/DevTools/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -275,8 +275,8 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count280
 \l__pdf_internal_box=\box55
-) (./resume_1.aux)
-\openout1 = `resume_1.aux'.
+) (./resume_wolftrap.aux)
+\openout1 = `resume_wolftrap.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
@@ -311,9 +311,9 @@ LaTeX Font Info:    ... okay on input line 94.
 \everyMPtoPDFconversion=\toks26
 )
 Package hyperref Info: Link coloring ON on input line 94.
- (./resume_1.out) (./resume_1.out)
+ (./resume_wolftrap.out) (./resume_wolftrap.out)
 \@outlinefile=\write3
-\openout3 = `resume_1.out'.
+\openout3 = `resume_wolftrap.out'.
 
 \big@size=\dimen161
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 99.
@@ -347,27 +347,27 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 200.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 181.
  [1
 
-{c:/DevTools/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/DevTools/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./resume_1.aux)
+{c:/DevTools/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/DevTools/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./resume_wolftrap.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
-Package rerunfilecheck Info: File `resume_1.out' has not changed.
-(rerunfilecheck)             Checksum: 15640E623775D02C75C5E553CD74F7E3;411.
+Package rerunfilecheck Info: File `resume_wolftrap.out' has not changed.
+(rerunfilecheck)             Checksum: 4DA606F6F1ED5B783D27B1420EC54BD5;411.
  ) 
 Here is how much of TeX's memory you used:
  10813 strings out of 474049
- 170397 string characters out of 5741744
- 1959754 words of memory out of 5000000
+ 170545 string characters out of 5741744
+ 1956754 words of memory out of 5000000
  33081 multiletter control sequences out of 15000+600000
  591457 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,296b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,308b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/DevTools/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/DevTools/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/DevTools/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/DevTools/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on resume_1.pdf (1 page, 61784 bytes).
+Output written on resume_wolftrap.pdf (1 page, 61133 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
