@@ -18,7 +18,7 @@
 \usepackage{tabularx} 
 \usepackage{mathptmx} % decfault font used: Times New Roman
 \usepackage{setspace}
-\setstretch{1.15}
+\setstretch{1.1}
 \input{glyphtounicode} % PDF output to ensure proper mapping of glyphs to Unicode characters
 
 % fancy
@@ -45,7 +45,7 @@
 % sections formatting
 \titleformat{\section}{
   \vspace{-12pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -55,7 +55,7 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{-3pt}}
   }
 }
 
@@ -64,7 +64,7 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r@{\hspace{-0.2in}}}
         \textbf{#1} & #2 \\
         \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-0pt}
+    \end{tabular*}\vspace{-1pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
@@ -81,17 +81,18 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.00in, rightmargin=-0.2in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, rightmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
 
 % ==============================
 
 \begin{document}
+% \vspace*{-0.05in}
 
 % -----------HEADING-----------
 \begin{center}
@@ -108,29 +109,47 @@
 % -----------EDUCATION-----------
 \section{Education}
     \resumeSubHeadingListStart
+        % \resumeSubheading
+        %     {George Mason University}{Fairfax, VA}
+        %     {BS Computer Science, ADVANCE Program}{Expected May 2027}
+
         \resumeSubheading
             {Northern Virginia Community College}{Annandale, VA}
             {AS Computer Science, GPA: 3.9; Dean's List (All Semesters)}{Expected May 2025} \\
             % {Aug 2023 -- May 2025}
-        \resumeSubheading
-            {George Mason University}{Fairfax, VA}
-            {ADVANCE Student, BS Computer Science}{Expected May 2027}
         
-        \resumeItem{\textbf{Relevant Courses: }{Problem Solving and Programming, Object Oriented Programming, Data Structures and Analysis of Algorithms}}
+        \resumeItem{\textbf{Relevant Courses: }{Problem Solving and Programming, Object Oriented Programming}}
     \resumeSubHeadingListEnd
 
 % -----------TECHNICAL SKILLS-----------
+% \section{Skills}
+%     % \textbf{}
+%     \vspace*{3pt}
+%     \begin{itemize}[leftmargin=0in, label={}]
+%         \small{\item{
+%             \textbf{Languages: }{Python, Java, SQL, HTML, CSS, JavaScript} \\
+%             \textbf{Frameworks: }{NumPy, Pandas, React, Node.js, Seaborn, PostgreSQL} \\
+%             \textbf{Technologies: }{Git, Anaconda3, VS Code, LaTex, Eclipse} \\
+%             \textbf{Certifications: }{\href{https://www.codepath.org/}{\underline{CodePath}} Technical Interview Prep(2024), HackerRank Python Basic(2024), HackerRank Java Basic(2024)} \\
+%             % Bilingual proficiency in English and Korean, need Visa sponsership to be employed in the US \\
+%             % \vspace{-5pt}
+%         }}
+%     \end{itemize}
 \section{Skills}
-    % \textbf{}
     \vspace*{3pt}
-    \begin{itemize}[leftmargin=0in, label={}]
-        \small{\item{
-            \textbf{Languages: }{Python, Java, JavaScript, HTML, CSS} \\
-            \textbf{Frameworks: }{NumPy, Tensorflow, Keras, Pytorch, React, Node.js, FastAPI} \\
-            \textbf{Technologies: }{Git, Anaconda3, LaTex, VS Code, Eclipse} \\
-            \textbf{Certifications: }{\href{https://www.codepath.org/}{\underline{CodePath}} Advanced Technical Interview Prep (June 2024 - Present), HackerRank Python Basic (2024)} \\
-            % \vspace{-5pt}
-        }}
+    \begin{itemize}[itemsep=-0.05in, leftmargin=0.05in, label={}]
+        \item \small{
+            \textbf{Languages: } Python, Java, SQL, HTML, CSS, JavaScript
+        }
+        \item \small{
+            \textbf{Frameworks: } Pandas, React, Flask, PostgreSQL
+        }
+        \item \small{
+            \textbf{Technologies: } Git, Anaconda3, VS Code, LaTeX, Eclipse, MS Office
+        }
+        \item \small{
+            \textbf{Certifications: } \href{https://www.codepath.org/}{\underline{CodePath}} Technical Interview Prep (2024), HackerRank Python Basic (2024), HackerRank Java Basic (2024)
+        }
     \end{itemize}
 
 % -----------EXPERIENCE-----------
@@ -169,6 +188,50 @@
 
 %     \resumeSubHeadingListEnd
 
+% ----------- EXPERIENCE & ACTIVITIES -----------
+
+\section{Experience \& Activities}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\textbf{CodePath Technical Interview Prep Course} $|$ \emph{TIP102; Intermediate Level}}{May 2024 -- August 2024}
+            \resumeItemListStart
+                \resumeItem{Selected as one of the global participants for a 10-week professional development program, targeting high-achieving diverse talent based on leadership potential and academic success.}
+                \resumeItem{Enhanced problem-solving skills and deepened understanding of data structures and algorithms, including heaps, trees, linked lists, and hashmaps.}
+                \resumeItem{Developed soft skills in communication and analytical thinking by collaborating with diverse team members from various cultural and programming backgrounds.}
+                \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\textbf{English Instructor} $|$ \emph{21Cen. English / Math Academy, Incheon, South Korea}}{July 2024 -- August 2024}
+            \resumeItemListStart
+                \resumeItem{Provided one-on-one tutoring sessions to 14 high school students, helped students improve their grades and understanding of English concepts and structures.}
+                \resumeItem{Developed customized lesson plans to address the specific needs and learning objectives of individual students of two classes}
+            \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\textbf{Himedia Academy Backend Developer Course}}{January 2023 -- April 2023}
+            \resumeItemListStart
+                \resumeItem{Backend development training course consisted of 10 participants, of practical workspace training based curriculum}
+                \resumeItem{Developed foundational skills in Java development, object-oriented programming, data structures, and Oracle DBMS through one-to-one focused learning sessions.}
+                \resumeItem{Managed team projects by utilizing Git and Notion to enhance collaboration and track progress, resulting in improved workflow efficiency and successful project completion.}
+                \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\textbf{Software Developer Student Club} of Gimpo Highschool $|$ \emph{Club President}}{August 2020 -- March 2022}
+            \resumeItemListStart
+                \resumeItem{Managed 36 club members ensuring smooth progress of their personal projects, received positive feedback from peers and club mentors.}
+                \resumeItem{Organized a successful project demonstration event for club members by coordinating logistics, presentations, and attendee engagement.}
+                % \resumeItem{Worked with 2 peers to develop and present an animated projection featuring real-time user facial and body motion tracking using Python3 MediaPipe library.}
+            \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+    \vspace{-1pt}
+
 % -----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
@@ -193,60 +256,58 @@
         %     \resumeItemListEnd
 
         \resumeProjectHeading
-            {\textbf{Portfolio Template Website} $|$ \href{https://github.com/juhun32/portfolio-template-project}{\underline{GitHub Demo}}}{April 2024 -- May 2024}
-            % $|$ \emph{HTML, CSS, JavaScript, Git} 
+            {\textbf{Formula 1 Driver Championship Statistics} {}}{}
+            % $|$ \emph{Python, Flask, PostgreSQL, OpenF1 API}
             \resumeItemListStart
-                \resumeItem{Technologies Utilized: HTML, CSS, JavaScript, Git}
-                \resumeItem{Worked with 2 peers to create a user-friendly and customizable portfolio template website using HTML, CSS, and JavaScript.}
-                \resumeItem{Focused on responsive design to ensure optimal performance on desktops, tablets, and mobile devices.}
-                \resumeItem{Successfully deployed the project on GitHub with demo and made it available for public use.}
-                \resumeItem{Enhanced the usability of the template, receiving positive feedback from users for its ease of customization and responsive design.}
+                \resumeItem{Utilized: Python, Flask, React, PostgreSQL, OpenF1 API}
+                \resumeItem{Designed a comprehensive database schema to store race results, driver details, and championship points allocations, using PostgreSQL.}
+                \resumeItem{Implemented backend logic using Flask to fetch data from OpenF1 APIs and generate various visualized charts.}
+                \resumeItem{Developed a frontend interface with React for users to view updated driver standings and statistics.}            
+                \resumeItem{Created automated scripts to fetch and update race data from OpenF1 API using Python.}            
             \resumeItemListEnd
 
         % \resumeProjectHeading
-        %     {\textbf{Tetris Clone} {}}{2023}
+        %     {\textbf{Discord Text-To-Speach Bot} {}}{}
         %     % $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2023}
         %     \resumeItemListStart
-        %         \resumeItem{Utilized: Java}
-        %         \resumeItem{Developed a fully functional Tetris clone using Java and Java UI (Swing/JavaFX) during free time for my classmates.}
-        %         \resumeItem{Published --- to websites gaining 2K+ downloads and an average 4.5/5-star review}
-        %         \resumeItem{Implemented classic Tetris gameplay mechanics including piece rotation, line clearing, and level progression.}
-        %         \resumeItem{Added score tracking and high score saving functionality using PostgreSQL}
+        %         % \resumeItem{Utilized: Python, Discord API, Google Cloud Text-to-Speech, Docker, Heroku}
+        %         \resumeItem{Utilized: Python, Discord API}
+        %         % \resumeItem{Utilized Google Cloud Text-to-Speech API to convert text messages into natural-sounding audio.}
+        %         % \resumeItem{Deployed the bot using Docker and Heroku for easy scalability and reliability.}
+        %         \resumeItem{Implemented command handling and user permissions to manage bot interactions within servers.}
+        %         % \resumeItem{Added score tracking and high score saving functionality using PostgreSQL}
         %     \resumeItemListEnd
+
+        % \resumeProjectHeading
+        %     {\textbf{To-do list With Google Calendar API} {}}{}
+        %     % $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2024 -- August 2024}
+        %     \resumeItemListStart
+        %         \resumeItem{Utilized: JavaScript, Node.js, React, Google Calendar API}
+        %         \resumeItem{Developed backend services with Node.js to handle user authentication, task management, and Google Calendar API interactions.}
+        %         \resumeItem{Implemented a full-stack web application Node.js serving a REST API with React as the frontend}
+        %     \resumeItemListEnd
+        
+        % \resumeProjectHeading
+        %     {\textbf{Portfolio Template} $|$ \href{https://github.com/juhun32/portfolio-template-project}{\underline{GitHub}}}{}
+        %     % $|$ \emph{HTML, CSS, JavaScript, Git} 
+        %     \resumeItemListStart
+        %         \resumeItem{Utilized: HTML, CSS, JavaScript, Git}
+        %         \resumeItem{Worked with 2 peers to create a customizable portfolio template website using HTML, CSS, and JavaScript.}
+        %         \resumeItem{Focused on responsive design to ensure optimal performance on desktops, tablets, and mobile devices.}
+        %         \resumeItem{Successfully deployed the project on GitHub with demo and made it available for public.}
+        %     \resumeItemListEnd
+        
+        \resumeProjectHeading
+            {\textbf{iOS Calculator} $|$ \href{https://github.com/juhun32/ios-calculator}{\underline{GitHub}}}{}
+            % $|$ \emph{HTML, CSS, JavaScript, Git} 
+            \resumeItemListStart
+                \resumeItem{Utilized: HTML, CSS, JavaScript, Git}
+                \resumeItem{Developed a functional calculator that mimics iOS design and functionality.}
+                \resumeItem{Implemented responsive design techniques to ensure optimal performance across desktops, tablets, and mobile devices.}
+            \resumeItemListEnd
+            
     \resumeSubHeadingListEnd
 
-% ----------- EXPERIENCE & ACTIVITIES -----------
 
-\section{Experience \& Activities}
-    \resumeSubHeadingListStart
-        \resumeProjectHeading
-            {\textbf{CodePath Technical Interview Prep Course} $|$ \emph{TIP102; Intermediate Level}}{May 2024 -- Present}
-            \resumeItemListStart
-                \resumeItem{Selected as one of 1000 participants nationwide for this 10-week professional development program for high-achieving diverse talent based on leadership potential and academic success.}
-            \resumeItemListEnd
-        \resumeSubHeadingListEnd
-
-    \vspace*{-20pt}
-
-    \resumeSubHeadingListStart
-        \resumeProjectHeading
-            {\textbf{Java Developer Course} $|$ Himedia Academy}{January 2023 -- April 2023}
-            \resumeItemListStart
-                \resumeItem{Back-end development course, consisted of basic Java, Oracle DBMS}
-            \resumeItemListEnd
-        \resumeSubHeadingListEnd
-
-    \vspace*{-20pt}
-
-    \resumeSubHeadingListStart
-        \resumeProjectHeading
-            {\textbf{Software Developer Student Club} $|$ Gimpo Highschool $|$ \emph{Club President}}{August 2020 -- March 2022}
-            \resumeItemListStart
-                \resumeItem{Managed 36 club members, ensuring smooth progress of their projects, receiving positive feedback from peers and mentors.}
-                % \resumeItem{Worked with 2 peers to develop and present an animated projection featuring real-time user facial and body motion tracking using Python3 MediaPipe library.}
-            \resumeItemListEnd
-        \resumeSubHeadingListEnd
-
-    \vspace*{-20pt}
 
 \end{document}
