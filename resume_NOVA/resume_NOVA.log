@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.13)  16 SEP 2024 20:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.13)  28 SEP 2024 12:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -343,11 +343,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 198.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 199.
  [1
 
 {c:/DevTools/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/DevTools/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./resume_NOVA.aux)
@@ -361,13 +361,13 @@ Package rerunfilecheck Info: File `resume_NOVA.out' has not changed.
 Here is how much of TeX's memory you used:
  10814 strings out of 474049
  170487 string characters out of 5741744
- 1957754 words of memory out of 5000000
+ 1963754 words of memory out of 5000000
  33082 multiletter control sequences out of 15000+600000
  591457 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,281b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,320b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/DevTools/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/DevTools/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/DevTools/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/DevTools/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on resume_NOVA.pdf (1 page, 60941 bytes).
+Output written on resume_NOVA.pdf (1 page, 63446 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
