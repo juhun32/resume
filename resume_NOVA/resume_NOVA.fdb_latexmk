@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1732065583.35429 "c:/DevFiles/resume/resume_NOVA/resume_NOVA.tex" "resume_NOVA.pdf" "resume_NOVA" 1732065584.21451 0
-  "c:/DevFiles/resume/resume_NOVA/resume_NOVA.tex" 1732065582 19371 9e8b310c40bbdb23f949928f4761ac2c ""
+["pdflatex"] 1733629662.43529 "c:/DevFiles/resume/resume_NOVA/resume_NOVA.tex" "resume_NOVA.pdf" "resume_NOVA" 1733629663.28834 0
+  "c:/DevFiles/resume/resume_NOVA/resume_NOVA.tex" 1733629661 19324 5b866061fabb53a7c8e6015ac2674b01 ""
   "c:/DevTools/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1715517311 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/DevTools/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1715517688 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1715520066 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -22,7 +22,6 @@
   "c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm" 1715518370 520 d082ac03a1087bc1ec2a06e24a9f68c0 ""
   "c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1715518370 520 4889cce2180234b97cad636b6039c722 ""
   "c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm" 1715518370 520 a74c6ed8cb48679fdc3ea874d9d34a7e ""
-  "c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm" 1715518370 520 7bb3abb160b19e0ed6ac404bb59052b7 ""
   "c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1715519754 688 37338d6ab346c2f1466b29e195316aa4 ""
   "c:/DevTools/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1715516096 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/DevTools/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1715522085 44729 fea0975e20ec51c992338362f05f1146 ""
@@ -99,9 +98,9 @@
   "c:/DevTools/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1715522789 5529320 1e38e253f2043953beb7c27bf5fac7e1 ""
   "c:/DevTools/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1715569778 8225306 ccd8ce1a3c306eec7ba595c66ae56a2a ""
   "c:/DevTools/texlive/2024/texmf.cnf" 1715522774 713 e69b156964470283e0530f5060668171 ""
-  "resume_NOVA.aux" 1732065584 677 c31928b4f4046ea6f9179711bf801183 "pdflatex"
-  "resume_NOVA.out" 1732065584 411 4da606f6f1ed5b783d27b1420ec54bd5 "pdflatex"
-  "resume_NOVA.tex" 1732065582 19371 9e8b310c40bbdb23f949928f4761ac2c ""
+  "resume_NOVA.aux" 1733629663 677 03cbfdd9ea116e73dbf74b5711f6aee8 "pdflatex"
+  "resume_NOVA.out" 1733629663 413 b7a5427e4c424635ad67ffadbe15ff9e "pdflatex"
+  "resume_NOVA.tex" 1733629661 19324 5b866061fabb53a7c8e6015ac2674b01 ""
   (generated)
   "resume_NOVA.aux"
   "resume_NOVA.log"
