@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1734642508.10267 "c:/DevFiles/resume/resume_NOVA/resume_NOVA.tex" "resume_NOVA.pdf" "resume_NOVA" 1734642509.24721 0
-  "c:/DevFiles/resume/resume_NOVA/resume_NOVA.tex" 1734642507 11828 f1972cad22b802462abf50f163817e12 ""
+["pdflatex"] 1735191829.0158 "c:/DevFiles/resume/resume_NOVA/resume_NOVA.tex" "resume_NOVA.pdf" "resume_NOVA" 1735191829.87676 0
+  "c:/DevFiles/resume/resume_NOVA/resume_NOVA.tex" 1735191828 12207 966befbc8d74e86e1296896238364440 ""
   "c:/DevTools/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1715517311 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/DevTools/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1715517688 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1715520066 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -102,9 +102,9 @@
   "c:/DevTools/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1715522789 5529320 1e38e253f2043953beb7c27bf5fac7e1 ""
   "c:/DevTools/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1715569778 8225306 ccd8ce1a3c306eec7ba595c66ae56a2a ""
   "c:/DevTools/texlive/2024/texmf.cnf" 1715522774 713 e69b156964470283e0530f5060668171 ""
-  "resume_NOVA.aux" 1734642509 688 3ad564016e9ce6f28450842c809f6076 "pdflatex"
-  "resume_NOVA.out" 1734642509 468 624c7b5acfa799827b3bc3e9445ae3ac "pdflatex"
-  "resume_NOVA.tex" 1734642507 11828 f1972cad22b802462abf50f163817e12 ""
+  "resume_NOVA.aux" 1735191829 683 f4aaafa62a50ac8bb3b05e4d7719a83d "pdflatex"
+  "resume_NOVA.out" 1735191829 440 a3adf65299d360fff4657a8f2545dd31 "pdflatex"
+  "resume_NOVA.tex" 1735191828 12207 966befbc8d74e86e1296896238364440 ""
   (generated)
   "resume_NOVA.aux"
   "resume_NOVA.log"
