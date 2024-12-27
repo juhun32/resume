@@ -2,8 +2,8 @@ PWD c:/DevFiles/resume/resume_NOVA
 INPUT c:/DevTools/texlive/2024/texmf.cnf
 INPUT c:/DevTools/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/DevTools/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/DevFiles/resume/resume_NOVA/resume_NOVA.tex
-OUTPUT resume_NOVA.log
+INPUT c:/DevFiles/resume/resume_NOVA/Juhun Park Resume.tex
+OUTPUT Juhun Park Resume.log
 INPUT c:/DevTools/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/DevTools/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/DevTools/texlive/2024/texmf-dist/tex/latex/base/size11.clo
@@ -127,21 +127,21 @@ INPUT c:/DevTools/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT c:/DevTools/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/DevTools/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./resume_NOVA.aux
-INPUT ./resume_NOVA.aux
-INPUT resume_NOVA.aux
-OUTPUT resume_NOVA.aux
+INPUT ./Juhun Park Resume.aux
+INPUT ./Juhun Park Resume.aux
+INPUT Juhun Park Resume.aux
+OUTPUT Juhun Park Resume.aux
 INPUT c:/DevTools/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/DevTools/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/DevTools/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT ./resume_NOVA.out
-INPUT ./resume_NOVA.out
-INPUT resume_NOVA.out
-INPUT resume_NOVA.out
-OUTPUT resume_NOVA.pdf
-INPUT ./resume_NOVA.out
-INPUT ./resume_NOVA.out
-OUTPUT resume_NOVA.out
+INPUT ./Juhun Park Resume.out
+INPUT ./Juhun Park Resume.out
+INPUT Juhun Park Resume.out
+INPUT Juhun Park Resume.out
+OUTPUT Juhun Park Resume.pdf
+INPUT ./Juhun Park Resume.out
+INPUT ./Juhun Park Resume.out
+OUTPUT Juhun Park Resume.out
 INPUT c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmbc7t.tfm
@@ -235,9 +235,9 @@ INPUT c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT c:/DevTools/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT resume_NOVA.aux
-INPUT ./resume_NOVA.out
-INPUT ./resume_NOVA.out
+INPUT Juhun Park Resume.aux
+INPUT ./Juhun Park Resume.out
+INPUT ./Juhun Park Resume.out
 INPUT c:/DevTools/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/DevTools/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT c:/DevTools/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
