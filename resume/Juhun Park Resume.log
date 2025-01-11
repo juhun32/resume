@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.13)  10 JAN 2025 13:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.13)  10 JAN 2025 19:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -364,13 +364,13 @@ Package rerunfilecheck Info: File `"Juhun Park Resume".out' has not changed.
 Here is how much of TeX's memory you used:
  10844 strings out of 474049
  171075 string characters out of 5741744
- 1972754 words of memory out of 5000000
+ 1973754 words of memory out of 5000000
  33108 multiletter control sequences out of 15000+600000
  590978 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,352b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/DevTools/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/DevTools/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/DevTools/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/DevTools/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Juhun Park Resume.pdf" (1 page, 68078 bytes).
+Output written on "Juhun Park Resume.pdf" (1 page, 68093 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
