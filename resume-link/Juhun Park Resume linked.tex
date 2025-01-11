@@ -1,0 +1,273 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym} % additional symbols for technical documents
+\usepackage[empty]{fullpage}
+\usepackage{titlesec} % custom format of section titles
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem} % custom list environments
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr} % custom headers and footers
+\usepackage[english]{babel} % multilingual support
+\usepackage{tabularx} 
+\usepackage{mathptmx} % decfault font used: Times New Roman
+\usepackage{setspace}
+\input{glyphtounicode} % PDF output to ensure proper mapping of glyphs to Unicode characters
+\setstretch{1}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+% fancy
+\pagestyle{fancy}
+\fancyhf{} % clear header and footer fields
+\fancyfoot{}
+\setlength{\footskip}{1cm}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{.2in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-9pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% ==============================
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+
+\newcommand{\resumeItemThin}[1]{
+  \item\small{
+    {#1 \vspace{-7pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r@{\hspace{-0.2in}}}
+        \small{\textbf{#1}} & \small{#2} \\
+        \textit{\small#3} & \small #4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r@{\hspace{-0.2in}}}
+        \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r@{\hspace{-0.2in}}}
+        \small#1 & \small#2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-7pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.00in, rightmargin=-0.2in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-7pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, rightmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
+
+% ==============================
+
+\begin{document}
+
+% -----------HEADING-----------
+
+\begin{center}
+  \textbf{\Huge \scshape {Juhun Park}} \\ \vspace{1pt}
+  \small 202-924-4546 $|$
+  \href{mailto:riann3207@gmail.com}{\underline{juhunpark32@gmail.com}} $|$
+  \href{https://juhun-park.web.app/}{\underline{juhun-park.web.app}} $|$
+  \href{https://linkedin.com/in/juhun-park}{\underline{linkedin.com/in/juhun-park}} $|$
+  \href{https://github.com/juhun32}{\underline{github.com/juhun32}} \\
+\end{center}
+
+\vspace{-7pt}
+
+% -----------TECHNICAL SKILLS-----------
+
+\section{Technical Skills}
+\vspace{3pt}
+\resumeItemListStart
+\resumeItemThin{\textbf{Programming Languages: }{Python, Java, SQL, HTML, CSS, JavaScript}}\\
+\resumeItemThin{\textbf{Frameworks: }{React.js, Flask, Bootstrap, Django, Pandas, Numpy, PostgreSQL, MediaPipe}}\\
+\resumeItemThin{\textbf{Technologies: }{Git, Linux, Docker, Firebase, GCP, Anaconda3, VS Code, LaTeX, Eclipse, MS Office}}\\
+\resumeItemListEnd
+\vspace{3pt}
+
+% -----------EDUCATION-----------
+
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{George Mason University}{Fairfax, VA}
+{BS Computer Science, ADVANCE Program}{Expected May 2027}\\
+
+\resumeSubheading
+{Northern Virginia Community College}{Annandale, VA}
+{AS Computer Science, GPA: 3.9; Dean's List '23, '24; Presidential Scholar '24}{Expected May 2025} \\
+
+\resumeItem{\textbf{Relevant Courses: }{Problem Solving\&Programming, Object Oriented Programming, Data Structures\&Algorithms, Calculus I/II/III}}
+\resumeSubHeadingListEnd
+
+% -----------WORK EXPERIENCE-----------
+
+%         \resumeSubheading
+%             {Undergraduate Research Assistant}{June 2020 -- Present}
+%             {Texas A\&M University}{College Station, TX}
+%         \resumeItemListStart
+%             \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
+%             \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
+%             \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+%         \resumeItemListEnd
+
+%         \resumeSubheading
+%             {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+%             {Southwestern University}{Georgetown, TX}
+%         \resumeItemListStart
+%             \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+%             \resumeItem{Developed a game in Java to test the generated dungeons}
+%             \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+%             \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+%             \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+%             \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+%         \resumeItemListEnd
+
+\section{Experience}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{Eduverse}{December 2024 -- Present}
+{Backend Developer}{Remote}
+\resumeItemListStart
+\resumeItem{Implemented an ML-based recommendation algorithm using \textbf{Python} and \textbf{Django} suggesting user connections, personalized posts.}
+\resumeItem{Developed search endpoint using \textbf{Django ORM}, \textbf{PostgreSQL} to query profiles and posts with filters for names, skills, post types.}
+% \resumeItem{Designed and integrated post management features including comments, likes, saves, shares, and favorites.}
+\resumeItem{Collaborated on API testing, debugging using \textbf{Postman} and \textbf{Git}, ensuring profile post-related functionality achieved \textbf{98\% accuracy}.}
+\resumeItem{Implemented backend features, search features with seamless \textbf{React} integration for frontend functionality, deployed using \textbf{Firebase}.}
+\resumeItem{Worked as a team of 6 to develop and deploy scalable backend services, ensuring high availability and performance.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{21Cen. English \& Math Academy}{July 2024 -- August 2024}
+{English Instructor}{Incheon, South Korea}
+\resumeItemListStart
+\resumeItem{Improved 14 high school students' grades by average 30\%, significantly improved understanding of English concepts and structures.}
+\resumeItem{Saved 20\% of class time by developing 10 custom lesson plans, addressing the specific needs and objectives of all 14 students.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{Himedia Academy}{January 2023 -- April 2023}
+{Full-stack Developer Apprenticeship}{Seoul, South Korea}
+\resumeItemListStart
+\resumeItem{Full-time development training consisted of 10 apprentices, on \textbf{Java}, \textbf{Python} backend application and practical workspace training.}
+\resumeItem{Developed foundational skills in web development techniques using \textbf{Bootstrap}, \textbf{HTML/CSS}, \textbf{JavaScript}, and \textbf{Oracle DBMS}.}
+\resumeItem{Focused on backend development skills; object-oriented programming, data structures and algorithms, unit testing, and debugging.}
+\resumeItem{Led a \textbf{team of 4} and improved workflow efficiency by reducing \textbf{30\%} of development time by utilizing \textbf{Git}, \textbf{Github} and \textbf{Notion}.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{Science Research Program, Gimpo Highschool}{March 2021 -- November 2021}
+{Student Researcher}{Gimpo, South Korea}
+\resumeItemListStart
+\resumeItem{Led a research project, developed and tested a motion detection application using \textbf{Numpy}, \textbf{OpenCV}, \textbf{PyAutoGUI} and \textbf{MediaPipe}.}
+\resumeItem{Authored a scientific research paper detailing the project methodology, test results, and implications for future research plans.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% -----------PROJECTS-----------
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Project Verstappen} $|$ \href{https://github.com/juhun32/project-verstappen}{\underline{github.com/juhun32/project-verstappen}} $|$ Python, Shared Memory API, OpenCV, AC/acsys module}{2025}
+\resumeItemListStart
+\resumeItem{Integrated the \textbf{Assetto Corsa Shared Memory API} and \textbf{AC/acsys module} for real-time session telemetry, vehicle data for analysis.}
+\resumeItem{Utilized preprocessing pipelines using \textbf{OpenCV} to extract track lines for lane detection.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Formula One Statistics} $|$ \href{https://github.com/juhun32/f1-statistics}{\underline{github.com/juhun32/f1-statistics}} $|$ Flask, React, OpenF1 API, FastF1 API, Firebase, Docker, GCP}{2025}
+\resumeItemListStart
+\resumeItem{Implemented backend API using \textbf{Flask} to fetch, filter, store, update data from OpenF1 API and FastF1 API, with data tables, graphs.}
+\resumeItem{Developed frontend interface with \textbf{React} for users to navigate through updated driver/constructor standings and grand prix statistics.}
+\resumeItem{Deployed the backend API on \textbf{Google Cloud Run} using \textbf{Docker} for containerization, and \textbf{Firebase} for react frontend.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% -----------EXTRACURRICULAR ACTIVITIES-----------
+
+\section{Extracurricular Activities}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Web Developer Volunteer, InsightLegi} $|$ \href{https://github.com/juhun32/datastorm25}{\underline{github.com/juhun32/datastorm25}} $|$ React, Bootstrap, Firebase}{January 2025}
+\resumeItemListStart
+\resumeItem{Developed a static website using \textbf{React} and \textbf{Bootstrap} to promote Hackathon 2025, including event details and registration process.}
+\resumeItem{Deployed the project on \textbf{Firebase Hosting}, enabling fast and scalable access.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{PatriotHacks '24} $|$ \href{https://github.com/juhun32/Prison-Break}{\underline{github.com/juhun32/Prison-Break}} $|$ React, Github Pages}{October 2024}
+\resumeItemListStart
+\resumeItem{Participated in a 36-hour hackathon event, collaborated with 3 team members to develop a \textbf{React} web application that provides information about government spending of tax revenue on incarceration, and solutions to reduce spending on prison facilities.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{CodePath Technical Interview Prep Course} - \emph{TIP102} $|$ \href{https://drive.google.com/file/d/1AF2ZAUXoXeakbAZIJZ_izQ2nd9aNfjYB/view?usp=sharing}{\underline{Certificate}}}{May 2024 -- August 2024}
+\resumeItemListStart
+\resumeItem{Improved problem-solving skills of data structures and algorithms of heaps, trees, linked lists, and hashmap through \textbf{60+} problems.}
+\resumeItem{Enhanced communication and analytical thinking skills by collaborating with \textbf{5 team members} from various cultural backgrounds.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{President of Software Developer Student Club}, Gimpo Highschool}{August 2020 -- March 2022}
+\resumeItemListStart
+\resumeItem{Led \textbf{40} club members, supported their projects and academic success, recieved \textbf{100\%} positive feedback from members and mentors.}
+\resumeItem{Organized two successful project demonstration event, coordinated logistics, presentations, and attendee engagement.}
+\resumeItem{Invited a published author in AI for a Q\&A, facilitated understanding of AI concepts and inspired a new AI application project.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
