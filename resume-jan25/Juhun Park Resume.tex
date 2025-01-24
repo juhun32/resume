@@ -34,7 +34,6 @@
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-0.7in}
-\addtolength{\textheight}{.2in}
 \addtolength{\textheight}{1in}
 
 \urlstyle{same}
@@ -46,7 +45,7 @@
 % sections formatting
 \titleformat{\section}{
   \vspace{-10pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-9pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-10pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -56,19 +55,19 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-3pt}}
+    {#1 \vspace{-1pt}}
   }
 }
 
 \newcommand{\resumeItemThin}[1]{
   \item\small{
-    {#1 \vspace{-8pt}}
+    {#1 \vspace{-7pt}}
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
     \item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r@{\hspace{-0.1in}}}
+    \begin{tabular*}{0.985\textwidth}[t]{l@{\extracolsep{\fill}}r@{\hspace{-0.1in}}}
         \small{\textbf{#1}} & \small{#2} \\
         \textit{\small#3} & \small #4 \\
     \end{tabular*}\vspace{-5pt}
@@ -76,22 +75,22 @@
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r@{\hspace{-0.1in}}}
+    \begin{tabular*}{0.985\textwidth}{l@{\extracolsep{\fill}}r@{\hspace{-0.1in}}}
         \textit{\small#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{0pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r@{\hspace{-0.1in}}}
+    \begin{tabular*}{0.985\textwidth}{l@{\extracolsep{\fill}}r@{\hspace{-0.1in}}}
         \small#1 & \small#2 \\
     \end{tabular*}\vspace{-3pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.00in, rightmargin=-0.2in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-10pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-9pt}}
 \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, rightmargin=0.15in]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
 
