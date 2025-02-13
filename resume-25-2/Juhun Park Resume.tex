@@ -15,7 +15,7 @@
 \usepackage{setspace}
 \input{glyphtounicode} % PDF output to ensure proper mapping of glyphs to Unicode characters
 % \linespread{0.8}
-\setstretch{0.87}
+\setstretch{0.925}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -72,7 +72,7 @@
     \begin{tabular*}{0.985\textwidth}[t]{l@{\extracolsep{\fill}}r@{\hspace{-0.1in}}}
         \small{\textbf{#1}} & \small{#2} \\
         \small#3 & \small #4 \\
-    \end{tabular*}\vspace{-6pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
@@ -97,12 +97,14 @@
     \end{tabular*}\vspace{-5pt}
 }
 
+
+\titlespacing{\section}{0pt}{17pt}{13pt}
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.00in, rightmargin=-0.2in, label={}]\vspace{1pt}}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-10pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-7pt}}
 \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, rightmargin=0.15in]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
 
 % ==============================
 
@@ -119,12 +121,12 @@
   \href{https://github.com/juhun32}{GitHub} \\
 \end{center}
 
-\vspace{-7pt}
+\vspace{-10pt}
 
 % -----------TECHNICAL SKILLS-----------
 
 \section{Technical Skills}
-\vspace{5pt}
+\vspace{3pt}
 \resumeItemListStart
 \resumeItemThin{\textbf{Programming Languages: }{Python, JS/TS, Go, Java, SQL}}\\
 \resumeItemThin{\textbf{Full-stack Development: }{React.js, Flask, Bootstrap, Django, Tailwind, Pandas, Numpy, PostgreSQL, SvelteKit}}\\
@@ -145,6 +147,7 @@
 
 \resumeItem{\textbf{Relevant Courses: }{Problem Solving \& Programming, Object Oriented Programming, Data Structures \& Algorithms, Calculus I/II/III}}
 \resumeSubHeadingListEnd
+\vspace{-3pt}
 
 % -----------WORK EXPERIENCE-----------
 
@@ -152,10 +155,10 @@
 
 \resumeSubHeadingListStart
 \resumeSubheading
-{InsightLegi} {January 2024 -- Present}
+{InsightLegi} {Feburary 2025 -- Present}
 {Software Engineer Intern} {Fairfax, VA}
 \resumeItemListStart 
-\resumeItem{Created data visualization dashboards for 15+ states, \textbf{30+ charts} using \textbf{Chart.js} and \textbf{React-Query} while maintaining \textbf{sub-500ms} load time, resulting in \textbf{30\%} increase in conversion rate, \textbf{20\%} reduced operating costs through improved resource efficiency.}
+\resumeItem{Created data visualization dashboards for 15+ states, \textbf{30+ charts} using \textbf{Chart.js} and \textbf{React-Query} while maintaining \textbf{sub-500ms} load time, resulting in \textbf{30\%} increase in conversion rate, \textbf{20\%} reduced operating costs by improving computing resource efficiency.}
 \resumeItem{Developed a web application using \textbf{React} and \textbf{Bootstrap} to promote InsightLegi DataStorm 2025, implemented \textbf{Google Workspace API} using \textbf{Go} to handle user registration, reducing processing time by \textbf{39\%}, accommodating to \textbf{40\%} increased registration.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
@@ -178,7 +181,7 @@
 {Software Engineer Apprenticeship} {Seoul, South Korea}
 \resumeItemListStart
 \resumeItem{Built 3 web applications adhering to SDLC as a full-time OJT, gained experience in Java, JS, Bootstrap, Oracle DBMS development.}
-\resumeItem{Improved scalability and \textbf{25\%} faster response times from unit testing and debugging by implementing backend features utilizing Object-Oriented Programming(OOP).}
+\resumeItem{Improved scalability, \textbf{25\%} faster backend response times by implementing backend features using Object-Oriented Programming.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -201,7 +204,7 @@
 {\textbf{Project Verstappen} $|$ \href{https://github.com/juhun32/project-verstappen}{GitHub}} {}
 {\small{Python, Shared Memory API, OpenCV, AC/acsys module}}
 \resumeItemListStart
-\resumeItem{Engineered a real-time telemetry data analysis solution for sim racers, optimizing data processing to reduce server costs by \textbf{30\%} through efficient data compression and selective real-time telemetry updates.}
+\resumeItem{Engineered a real-time telemetry data analysis solution for sim- racers, optimizing data processing to reduce server costs by \textbf{30\%} through efficient data compression and selective real-time telemetry updates.}
 \resumeItem{Enhanced UI/UX to make complex telemetry more approachable, increasing user engagement by \textbf{70\%} through intuitive visualizations and streamlined data presentation.}
 \resumeItem{Utilized OpenCV to develop, implement advanced image processing pipelines for accurate track line extraction and lane detection.}
 \resumeItemListEnd
@@ -219,15 +222,15 @@
 
 % -----------EXTRACURRICULAR ACTIVITIES-----------
 
-\section{Extracurricular Activities}
+% \section{Extracurricular Activities}
 
-\resumeSubHeadingListStart
-\resumeActivityHeading
-{\textbf{CodePath Technical Interview Prep Course} - \emph{TIP102} $|$ \href{https://drive.google.com/file/d/1AF2ZAUXoXeakbAZIJZ_izQ2nd9aNfjYB/view?usp=sharing}{Certificate}}{May 2024 -- August 2024}
-\resumeItemListStart
-\resumeItem{Improved problem-solving skills of \textbf{data structures} and algorithms of heaps, trees, linked lists and hashmap through \textbf{60+} problems.}
-\resumeItem{Enhanced communication and analytical thinking skills by collaborating with \textbf{5 team members} from various cultural backgrounds.}
-\resumeItemListEnd
-\resumeSubHeadingListEnd
+% \resumeSubHeadingListStart
+% \resumeActivityHeading
+% {\textbf{CodePath Technical Interview Prep Course} - \emph{TIP102} $|$ \href{https://drive.google.com/file/d/1AF2ZAUXoXeakbAZIJZ_izQ2nd9aNfjYB/view?usp=sharing}{Certificate}}{May 2024 -- August 2024}
+% \resumeItemListStart
+% \resumeItem{Improved problem-solving skills of \textbf{data structures} and algorithms of heaps, trees, linked lists and hashmap through \textbf{60+} problems.}
+% \resumeItem{Enhanced communication and analytical thinking skills by collaborating with \textbf{5 team members} from various cultural backgrounds.}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
 
 \end{document}
