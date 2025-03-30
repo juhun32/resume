@@ -79,7 +79,7 @@
     \item
     \begin{tabular*}{0.985\textwidth}{l@{\extracolsep{\fill}}r@{\hspace{-0.1in}}}
         \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{0pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeProjectHeading}[3]{
@@ -102,9 +102,9 @@
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.00in, rightmargin=-0.2in, label={}]\vspace{1pt}}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-7pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-5pt}}
 \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, rightmargin=0.15in]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-10pt}}
 
 % ==============================
 
@@ -139,7 +139,7 @@
 \resumeSubHeadingListStart
 \resumeSubheading
 {George Mason University}{Fairfax, VA}
-{BS Computer Science, ADVANCE Program}{Expected May 2027}\\
+{BS Computer Science}{Expected May 2027}\\
 
 \resumeSubheading
 {Northern Virginia Community College}{Annandale, VA}
@@ -155,14 +155,14 @@
 
 \resumeSubHeadingListStart
 \resumeSubheading
-{cvrve} {March 2025 -- Present}
-{Technical Co-Founder} {Remote}
+{copium.dev} {January 2025 -- Present}
+{Founding Engineer} {Remote}
 \resumeItemListStart 
-\resumeItem{Built an internship management platform with \textbf{SvelteKit} and \textbf{Firestore}, achieving \textbf{99.9\% uptime} and \textbf{sub-100ms} search latency for \textbf{400,000+} concurrent users.}
+\resumeItem{Built an internship application management platform with \textbf{SvelteKit}, \textbf{Go} and \textbf{Firestore}, achieving \textbf{99.9\% uptime} and \textbf{sub-100ms} search latency for \textbf{100+} concurrent users, with \textbf{3,000+} applications.}
 \resumeItem{Scaled search engine indexes to 10k concurrent operations with \textbf{Cloud Pub/Sub} and \textbf{Go} consumer, reducing search latency by \textbf{30\%}.}
-\resumeItem{Delivered an \textbf{80\%} reduction in query latency for \textbf{BigQuery} data analytics by leveraging CQRS architecture.}
+\resumeItem{Delivered an \textbf{80\%} reduction in query latency for \textbf{BigQuery} data analytics by leveraging CQRS pattern architecture, \textbf{50\%} reduction in data transfer costs by implementing server-side paginated Algolia searches.}
 \resumeItem{Implemented compensating transactions for consistency across data stores with a \textbf{99.9\%} success rate.}
-\resumeItem{Achieved \textbf{sub-100ms} page load latency and reduced data transfer costs by \textbf{50\%} with paginated Algolia searches.}
+% \resumeItem{Achieved \textbf{sub-100ms} page load latency and reduced data transfer costs by \textbf{50\%} with paginated Algolia searches.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -182,21 +182,21 @@
 {Software Engineer Intern} {Remote}
 \resumeItemListStart
 \resumeItem{Streamlined user auth with \textbf{JWT}, user model with profile metadata using \textbf{Django}, reducing data response time for redirect by \textbf{40\%}.}
-\resumeItem{Created search endpoint using \textbf{Django ORM}, \textbf{PostgreSQL} to query profiles and posts with filters, optimized request to endpoint efficiency by \textbf{50\%}, reducing search query response time by \textbf{20\%}.}
+\resumeItem{Created search endpoint using \textbf{Django ORM}, \textbf{PostgreSQL} to query profiles and posts with filters, optimized request to endpoint efficiency by \textbf{50\%}, reducing search query response time to \textbf{sub-100ms}.}
 \resumeItem{Redesigned frontend using \textbf{React} and \textbf{Tailwind}, resulting in \textbf{57\%} more efficient page load time, \textbf{35\%} reduction in API fetch time.}
 \resumeItem{Tested \textbf{50+} API endpoint using Postman, achieved \textbf{98\% test coverage} by validating responses across \textbf{500+ test cases}.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
-% \resumeSubHeadingListStart
-% \resumeSubheading
-% {Himedia Academy} {January 2023 -- April 2023}
-% {Software Engineer Apprenticeship} {Seoul, South Korea}
-% \resumeItemListStart
-% \resumeItem{Built 3 web applications adhering to SDLC as a full-time OJT, gained experience in Java, JS, Bootstrap, Oracle DBMS development.}
-% \resumeItem{Improved scalability, \textbf{25\%} faster backend response times by implementing backend features using Object-Oriented Programming.}
-% \resumeItemListEnd
-% \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{Himedia Academy} {January 2023 -- April 2023}
+{Software Engineer Apprenticeship} {Seoul, South Korea}
+\resumeItemListStart
+\resumeItem{Built 3 web applications adhering to SDLC as a full-time OJT, gained experience in Java, JS, Bootstrap, Oracle DBMS development.}
+\resumeItem{Improved scalability, \textbf{25\%} faster backend response times by implementing backend features using Object-Oriented Programming.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
 
 % -----------PROJECTS-----------
 
@@ -221,6 +221,8 @@
 \resumeItem{Enhanced UI/UX to make complex telemetry more approachable, increasing user engagement by \textbf{70\%} through intuitive visualizations and streamlined data presentation.}
 \resumeItem{Utilized OpenCV to develop, implement advanced image processing pipelines for accurate track line extraction and lane detection.}
 \resumeItemListEnd
+
+\vspace{5pt}
 
 \resumeProjectHeading
 {\textbf{ftrace} $|$ \href{https://github.com/juhun32/f1-statistics}{GitHub}} {}
