@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  16 JUN 2025 18:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  3 JUL 2025 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/DevFiles/resume/resume-25-6/Juhun Park Resume.tex"
-(c:/DevFiles/resume/resume-25-6/Juhun Park Resume.tex
+**"c:/DevFiles/resume/resume-25-7-product/Juhun Park Resume.tex"
+(c:/DevFiles/resume/resume-25-7-product/Juhun Park Resume.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -352,7 +352,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 10
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
 
 
 [1
@@ -367,14 +367,14 @@ Package rerunfilecheck Info: File `"Juhun Park Resume".out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  11130 strings out of 473189
- 177138 string characters out of 5719952
- 611698 words of memory out of 5000000
+ 177162 string characters out of 5719952
+ 610698 words of memory out of 5000000
  34221 multiletter control sequences out of 15000+600000
  583336 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,367b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,346b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/DevTools/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/DevTools/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/DevTools/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "Juhun Park Resume.pdf" (1 page, 50219 bytes).
+Output written on "Juhun Park Resume.pdf" (1 page, 47038 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
