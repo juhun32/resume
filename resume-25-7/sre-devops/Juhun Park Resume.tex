@@ -1,0 +1,206 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym} % additional symbols for technical documents
+\usepackage[empty]{fullpage}
+\usepackage{titlesec} % custom format of section titles
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem} % custom list environments
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr} % custom headers and footers
+\usepackage[english]{babel} % multilingual support
+\usepackage{tabularx} 
+\usepackage{mathptmx} % decfault font used: Times New Roman
+\usepackage{setspace}
+\input{glyphtounicode} % PDF output to ensure proper mapping of glyphs to Unicode characters
+% \linespread{0.8}
+% \setstretch{0.925}
+\setstretch{1.25}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+% fancy
+\pagestyle{fancy}
+\fancyhf{} % clear header and footer fields
+\fancyfoot{}
+\setlength{\footskip}{1cm}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% margins
+\addtolength{\oddsidemargin}{-0.7in}
+\addtolength{\evensidemargin}{-0.7in}
+\addtolength{\textwidth}{1.4in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{0in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-10pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% ==============================
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1}
+  }
+}
+
+\newcommand{\resumeItemThin}[1]{
+  \item{
+    {#1 \vspace{-5pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \item
+    \begin{tabular*}{0.985\textwidth}[t]{l@{\extracolsep{\fill}}r@{\hspace{-0.1in}}}
+        {\textbf{#1}} & {#2} \\
+        #3 &  #4 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\titlespacing{\section}{0pt}{17pt}{13pt}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.00in, rightmargin=-0.2in, label={}]\vspace{3pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListStart}{\vspace{3pt}\begin{itemize}[leftmargin=0.15in, rightmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% ==============================
+
+\begin{document}
+
+% -----------HEADING-----------
+
+\begin{center}
+  \textbf{\Huge \scshape {Juhun Park}} \\ \vspace{3pt}
+   202-924-4546 $|$
+  \href{mailto:juhunpark32@gmail.com}{juhunpark32@gmail.com} $|$
+  \href{https://www.juhunpark.me/}{juhunpark.me} $|$
+  \href{https://linkedin.com/in/juhun-park}{linkedin.com/in/juhun-park} $|$
+  \href{https://github.com/juhun32}{github.com/juhun32} \\
+\end{center}
+
+\vspace{-10pt}
+
+% -----------TECHNICAL SKILLS-----------
+
+\section{Technical Skills}
+\resumeItemListStart
+\resumeItemThin{\textbf{Languages: }{Python, TypeScript, JavaScript, Go, Java, SQL}}\\
+\resumeItemThin{\textbf{Libraries \& Frameworks: }{React, SvelteKit, Flask, Django, PostgreSQL, Pytest}}\\
+\resumeItemThin{\textbf{Tools \& Platforms: }{Git, AWS, GCP, Linux, RabbitMQ, Algolia, Docker, Redis, Kafka}}\\
+\resumeItemListEnd
+
+% -----------EDUCATION-----------
+
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{George Mason University}{Expected May 2027}
+{Bachelor of Science in Computer Science}{GPA: \textbf{3.9}}
+\resumeItem{\textbf{Relevant Coursework: }{Data Structures \& Algorithms}}
+\vspace{-5pt}
+\resumeSubHeadingListEnd
+
+% -----------WORK EXPERIENCE-----------
+
+\section{Experience}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{\href{https://www.copium.dev}{Copium.dev}} {Jan 2025 - Present}
+{Co-Founder} {Remote}
+\resumeItemListStart
+\resumeItem{Launched a tech career management platform with \textbf{400k} users, handling \textbf{90k} job applications daily.}
+\resumeItem{Deployed \textbf{10k} events/s analytics pipeline (\textbf{Kafka} to \textbf{ClickHouse}, \textbf{Redis}) in \textbf{Go} as \textbf{Docker} containers on \textbf{AWS ECS}.}
+\resumeItem{Set up a \textbf{Cloudflare R2} pipeline for resume files, offloading \textbf{120 GB/month} from \textbf{S3}, reducing storage cost \textbf{45\%}.}
+% \resumeItem{Integrated Supabase Postgres and Auth to manage user profiles, application data and session tokens.}
+\resumeItem{Automated builds and deployments with \textbf{Terraform} via \textbf{GitHub Actions}, achieving \textbf{sub-10min} deployment times.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{InsightLegi} {Jan 2025 - Mar 2025}
+{Software Engineer Intern} {Fairfax, VA}
+\resumeItemListStart
+\resumeItem{Built a \textbf{React} dashboard with \textbf{30+} \textbf{Chart.js} visuals, optimized fetching with \textbf{ReactQuery} for sub-\textbf{150}ms load time.}
+\resumeItem{Built a hackathon microsite in \textbf{React} \& \textbf{Tailwind}, boosting participant sign ups by \textbf{42\%} compared to previous.}
+\resumeItem{Automated registration workflow in \textbf{Go} with \textbf{Google Workspace API}, reducing manual processing time by \textbf{70\%}.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{Eduverse} {Dec 2024 - Jan 2025}
+{Software Engineer Intern} {Remote}
+\resumeItemListStart
+\resumeItem{Reorganized \textbf{Django} services into modular apps, refactored user metadata models, improved API throughput \textbf{30\%}.}
+% \resumeItem{Automated load testing with k6 and tuned Go gRPC services to reach \textbf{50k} rps with p95 \textbf{120} ms.}
+\resumeItem{Wrote unit tests with \textbf{Pytest}, increasing API test coverage from \textbf{20\%} to \textbf{65\%}, catching \textbf{2} production bugs pre-launch.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% -----------PROJECTS-----------
+
+\section{Projects}
+
+% \resumeSubHeading
+% {\textbf{copium} $|$ \href{https://github.com/juhun32/copium}{GitHub}} {}
+% {{SvelteKit, Tailwind, Go, Algolia, Docker, Google Cloud SQL}}
+% \resumeItemListStart
+% \resumeItem{Built a \textbf{SvelteKit} tech internship management platform for 350 users that handles live postings and user data with Google Cloud SQL while maintaining \textbf{99.9\% uptime}, leveraging server-side pagination to decrease data transfer costs by \textbf{50\%}.}
+% \resumeItem{Scaled a distributed search and indexing pipeline to \textbf{10,000} concurrent index operations and \textbf{sub-100ms} search latency using RabbitMQ and Go consumer with goroutine worker pools on Google Compute Engine.}
+% \resumeItem{Delivered \textbf{95\%} data freshness for internship searches with a scheduled \textbf{Python} job-posting scraper for Algolia indexing, with \textbf{30\%} reduced operating costs from optimized execution timing to run only when needed, reduced computing resources.}
+% \resumeItemListEnd
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{\textbf{Calple} \textnormal{$|$ \href{https://github.com/juhun32/calple}{GitHub} $|$ \href{https://www.calple.date}{calple.date}}} {}
+{{Next.js, Go, Firestore, Docker, GCP Cloud Run}}{}
+\resumeItemListStart
+\resumeItem{Relationship management platform featuring shared calendars, cycle tracking and curated date ideas for couples.}
+\resumeItem{Shipped \textbf{30MB} Dockerised \textbf{Go} backend, deployed to \textbf{Cloud Run}, sustaining \textbf{99.9\%} uptime with automatic scaling.}
+\resumeItem{Tuned \textbf{Firestore} queries to keep calendar \& note endpoints \textbf{sub-150ms}, while supporting \textbf{2k+} daily operations.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% \resumeSubHeadingListStart
+% \resumeSubheading
+% {\textbf{Race Telemetry Analyzer} \textnormal{$|$ \href{https://github.com/juhun32/project-verstappen}{GitHub}}} {}
+% {{Python, Shared Memory API, OpenCV, AC/acsys module}}{}
+% \resumeItemListStart
+% \resumeItem{Built high-volume telemetry collector (\textbf{>5 GB/h}) streaming to \textbf{Kafka} and persisted in \textbf{ClickHouse} for analytical queries.}
+% \resumeItem{Automated alerting on latency anomalies with \textbf{Prometheus Rules}, keeping processing delays under \textbf{250} ms.}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+% \resumeSubHeading
+% {\textbf{Formulaba} $|$ \href{https://github.com/juhun32/f1-statistics}{GitHub} $|$ \href{https://www.formulaba.com}{formulaba.com}} {}
+% {{Three.js, SvelteKit, Flask, Llama}}
+% \resumeItemListStart
+% \resumeItem{Architected a robust backend using \textbf{Flask} to fetch, filter data from the OpenF1 and FastF1 API, for \textbf{100+} data tables and graphs.}
+% \resumeItem{Designed and developed an intuitive and user-friendly interface and interactive frontend using \textbf{React} and \textbf{Tailwind}, providing users with updated information of driver/constructor standings and comprehensive grand prix statistics.}
+% \resumeItem{Deployed a production-ready backend API with \textbf{99.9\% uptime} on Google Cloud Run utilizing Docker for containerization and leveraged Firebase for secure and \textbf{30\%} more cost efficient hosting of the React frontend compared to previous deployment.}
+% \resumeItemListEnd
+
+\end{document}
