@@ -6,11 +6,11 @@ INPUT c:/DevFiles/resume/resume-25-7/sre-devops/Juhun Park Resume.tex
 OUTPUT Juhun Park Resume.log
 INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/article.cls
-INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/size12.clo
-INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/size12.clo
-INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/size12.clo
+INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/size11.clo
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/latexsym.sty
 INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/latexsym.sty
 INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/preprint/fullpage.sty
@@ -173,8 +173,8 @@ INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
-INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy9.tfm
-INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
+INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm
+INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
@@ -188,18 +188,11 @@ INPUT c:/DevTools/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
-INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
-INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm
-INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm
-INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm
-INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmbc7t.vf
 INPUT c:/DevTools/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm

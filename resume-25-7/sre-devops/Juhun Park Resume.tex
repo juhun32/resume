@@ -1,4 +1,4 @@
-\documentclass[letterpaper,12pt]{article}
+\documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym} % additional symbols for technical documents
 \usepackage[empty]{fullpage}
@@ -16,7 +16,7 @@
 \input{glyphtounicode} % PDF output to ensure proper mapping of glyphs to Unicode characters
 % \linespread{0.8}
 % \setstretch{0.925}
-\setstretch{1.25}
+\setstretch{1.45}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -32,11 +32,11 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % margins
-\addtolength{\oddsidemargin}{-0.7in}
-\addtolength{\evensidemargin}{-0.7in}
-\addtolength{\textwidth}{1.4in}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
 \addtolength{\topmargin}{-0.5in}
-\addtolength{\textheight}{0in}
+% \addtolength{\textheight}{0in}
 \addtolength{\textheight}{1in}
 
 \urlstyle{same}
@@ -105,7 +105,7 @@
 
 \section{Technical Skills}
 \resumeItemListStart
-\resumeItemThin{\textbf{Languages: }{Python, TypeScript, JavaScript, Go, Java, SQL}}\\
+\resumeItemThin{\textbf{Languages: }{Python, TypeScript, JavaScript, Go, Java, C, SQL}}\\
 \resumeItemThin{\textbf{Libraries \& Frameworks: }{React, SvelteKit, Flask, Django, PostgreSQL, Pytest}}\\
 \resumeItemThin{\textbf{Tools \& Platforms: }{Git, AWS, GCP, Linux, RabbitMQ, Algolia, Docker, Redis, Kafka}}\\
 \resumeItemListEnd
@@ -130,9 +130,9 @@
 {\href{https://www.copium.dev}{Copium.dev}} {Jan 2025 - Present}
 {Co-Founder} {Remote}
 \resumeItemListStart
-\resumeItem{Launched a tech career management platform with \textbf{400k} users, handling \textbf{90k} job applications daily.}
-\resumeItem{Deployed \textbf{10k} events/s analytics pipeline (\textbf{Kafka} to \textbf{ClickHouse}, \textbf{Redis}) in \textbf{Go} as \textbf{Docker} containers on \textbf{AWS ECS}.}
-\resumeItem{Set up a \textbf{Cloudflare R2} pipeline for resume files, offloading \textbf{120 GB/month} from \textbf{S3}, reducing storage cost \textbf{45\%}.}
+\resumeItem{Launched a tech career management platform serving \textbf{400k} acquired users, scaling to handle \textbf{90k} job applications daily.}
+\resumeItem{Deployed \textbf{10k+} events/s analytics pipeline (\textbf{Kafka} to \textbf{ClickHouse}, \textbf{Redis}) in \textbf{Go} as \textbf{Docker} containers on \textbf{AWS ECS}.}
+\resumeItem{Set up an object storage pipeline using \textbf{Cloudflare R2}, offloading \textbf{57GB/month} from \textbf{S3} and eliminating egress costs.}
 % \resumeItem{Integrated Supabase Postgres and Auth to manage user profiles, application data and session tokens.}
 \resumeItem{Automated builds and deployments with \textbf{Terraform} via \textbf{GitHub Actions}, achieving \textbf{sub-10min} deployment times.}
 \resumeItemListEnd
@@ -140,23 +140,23 @@
 
 \resumeSubHeadingListStart
 \resumeSubheading
-{InsightLegi} {Jan 2025 - Mar 2025}
+{InsightLegi} {Dec 2024 - Jan 2025}
 {Software Engineer Intern} {Fairfax, VA}
 \resumeItemListStart
-\resumeItem{Built a \textbf{React} dashboard with \textbf{30+} \textbf{Chart.js} visuals, optimized fetching with \textbf{ReactQuery} for sub-\textbf{150}ms load time.}
-\resumeItem{Built a hackathon microsite in \textbf{React} \& \textbf{Tailwind}, boosting participant sign ups by \textbf{42\%} compared to previous.}
-\resumeItem{Automated registration workflow in \textbf{Go} with \textbf{Google Workspace API}, reducing manual processing time by \textbf{70\%}.}
+\resumeItem{Built a modular \textbf{React} dashboard with 30+ \textbf{Chart.js} graphs, parsing JSON datasets to support policy analytics.}
+\resumeItem{Developed a \textbf{React} + \textbf{Tailwind} hackathon microsite, helping increase sign ups by \textbf{42\%} compared to previous registration.}
+\resumeItem{Automated registration flow in \textbf{Go} via \textbf{Google Workspace API}, reducing manual registration processing time by \textbf{70\%}.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 \resumeSubHeadingListStart
 \resumeSubheading
-{Eduverse} {Dec 2024 - Jan 2025}
+{Eduverse} {Nov 2024 - Dec 2024}
 {Software Engineer Intern} {Remote}
 \resumeItemListStart
-\resumeItem{Reorganized \textbf{Django} services into modular apps, refactored user metadata models, improved API throughput \textbf{30\%}.}
+\resumeItem{Reorganized \textbf{Django} services into modular apps and optimized user metadata models, improving API throughput \textbf{30\%}.}
 % \resumeItem{Automated load testing with k6 and tuned Go gRPC services to reach \textbf{50k} rps with p95 \textbf{120} ms.}
-\resumeItem{Wrote unit tests with \textbf{Pytest}, increasing API test coverage from \textbf{20\%} to \textbf{65\%}, catching \textbf{2} production bugs pre-launch.}
+\resumeItem{Wrote unit tests with \textbf{Pytest}, increasing API test coverage from \textbf{20\%} to \textbf{65\%}, catching \textbf{2} critical issues pre-launch.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -178,9 +178,9 @@
 {\textbf{Calple} \textnormal{$|$ \href{https://github.com/juhun32/calple}{GitHub} $|$ \href{https://www.calple.date}{calple.date}}} {}
 {{Next.js, Go, Firestore, Docker, GCP Cloud Run}}{}
 \resumeItemListStart
-\resumeItem{Relationship management platform featuring shared calendars, cycle tracking and curated date ideas for couples.}
-\resumeItem{Shipped \textbf{30MB} Dockerised \textbf{Go} backend, deployed to \textbf{Cloud Run}, sustaining \textbf{99.9\%} uptime with automatic scaling.}
-\resumeItem{Tuned \textbf{Firestore} queries to keep calendar \& note endpoints \textbf{sub-150ms}, while supporting \textbf{2k+} daily operations.}
+\resumeItem{Built a collaborative relationship management app with shared calendars, cycle tracking, and real-time synced maps.}
+\resumeItem{Deployed a lightweight \textbf{Go} backend (30MB Docker image) to \textbf{Cloud Run}, achieving \textbf{99.9\%} uptime with autoscaling.}
+\resumeItem{Optimized \textbf{Firestore} queries to keep API latency \textbf{under 150ms}, handling \textbf{2K+} daily requests across multiple endpoints.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
