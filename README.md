@@ -1,2 +1,3 @@
-Updated: May 31, 2025
-[View resume](https://github.com/user-attachments/files/20531710/Juhun.Park.Resume.pdf)
+Updated: Jul 22, 2025
+
+[Juhun Park Resume.pdf](https://github.com/user-attachments/files/21358172/Juhun.Park.Resume.pdf)
