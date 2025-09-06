@@ -15,7 +15,7 @@
 \usepackage{setspace}
 \input{glyphtounicode} % PDF output to ensure proper mapping of glyphs to Unicode characters
 % \linespread{0.8}
-\setstretch{1.20}
+\setstretch{1.25}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -117,7 +117,6 @@
 % -----------WORK EXPERIENCE-----------
 
 \section{Experience}
-
 \resumeSubHeadingListStart
 \resumeSubheading
 {Google Developer Group} {Apr 2025 - Present}
@@ -134,59 +133,27 @@
 {Northwestern University - Kellogg Alumni Group} {Jul 2025 - Aug 2025}
 {Software Engineer Intern} {Remote}
 \resumeItemListStart
-\resumeItem{Launched a \textbf{ASP.NET Minimal API \& SvelteKit} MVP, serving \textbf{1.5k} MAU with \textbf{99.9\%} uptime on \textbf{Cloudflare}.}
-\resumeItem{Designed \textbf{PostgreSQL schema and SQL functions} on Supabase, with performant query execution time of \textbf{sub-5ms}.}
+\resumeItem{Launched a \textbf{ASP.NET Minimal API} \& \textbf{SvelteKit} MVP, serving \textbf{1.5k} MAU with \textbf{99.9\%} uptime on \textbf{Cloudflare}.}
+\resumeItem{Designed \textbf{PostgreSQL schema} and \textbf{SQL functions} on Supabase, with performant query execution time of \textbf{sub-5ms}.}
 \resumeItem{Implemented \textbf{CDN} + \textbf{Redis} caching and REST endpoints, offloading \textbf{95\%} of reads and cutting latency to \textbf{sub-150ms}.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 \resumeSubHeadingListStart
 \resumeSubheading
-{Copium.dev (Merger, Cvrve, 2025)} {Jan 2025 - Jun 2025}
+{Copium.dev} {Jan 2025 - Jun 2025}
 {Co-Founder} {Remote}
 \resumeItemListStart
-\resumeItem{Launched a tech career management platform serving \textbf{400k} acquired users, scaling to handle \textbf{90k} job applications daily.}
+\resumeItem{Merger with Cvrve (2025), launched a tech career management platform serving \textbf{400k} users, \textbf{90k} job applications daily.}
 \resumeItem{Deployed \textbf{10k+} events/s analytics pipeline (\textbf{Kafka} to \textbf{ClickHouse}, \textbf{Redis}) in \textbf{Go} as \textbf{Docker} containers on \textbf{AWS ECS}.}
 \resumeItem{Set up an object storage pipeline using \textbf{Cloudflare R2}, offloading \textbf{57GB/month} from \textbf{S3} and eliminating egress costs.}
-% \resumeItem{Integrated Supabase Postgres and Auth to manage user profiles, application data and session tokens.}
 \resumeItem{Automated builds and deployments with \textbf{Terraform} + \textbf{GitHub Actions}, achieving \textbf{sub-10min} deployment times.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
-% \resumeSubHeadingListStart
-% \resumeSubheading
-% {George Mason University} {Dec 2024 - Jan 2025}
-% {Software Engineer Intern} {Fairfax, VA}
-% \resumeItemListStart
-% % \resumeItem{Built a modular \textbf{React} dashboard with 30+ \textbf{Chart.js} graphs, parsing state law JSON datasets to support policy analytics.}
-% \resumeItem{Developed a \textbf{React} + \textbf{Tailwind} hackathon microsite, helping increase sign ups by \textbf{42\%} compared to previous registration.}
-% \resumeItem{Automated registration flow in \textbf{Go} via \textbf{Google Workspace API}, reducing manual registration processing time by \textbf{70\%}.}
-% \resumeItemListEnd
-% \resumeSubHeadingListEnd
-
-% \resumeSubHeadingListStart
-% \resumeSubheading
-% {Eduverse} {Sep 2024 - Dec 2024}
-% {Software Engineer Intern} {Remote}
-% \resumeItemListStart
-% \resumeItem{Reorganized \textbf{Django} services into modular apps and optimized user metadata models, improving API throughput \textbf{30\%}.}
-% \resumeItem{Wrote unit tests with \textbf{Pytest}, increasing API test coverage from \textbf{20\%} to \textbf{65\%}, catching \textbf{2} critical issues pre-launch.}
-% \resumeItemListEnd
-% \resumeSubHeadingListEnd
-
 % -----------PROJECTS-----------
 
 \section{Projects}
-
-% \resumeSubHeading
-% {\textbf{copium} $|$ \href{https://github.com/juhun32/copium}{GitHub}} {}
-% {{SvelteKit, Tailwind, Go, Algolia, Docker, Google Cloud SQL}}
-% \resumeItemListStart
-% \resumeItem{Built a \textbf{SvelteKit} tech internship management platform for 350 users that handles live postings and user data with Google Cloud SQL while maintaining \textbf{99.9\% uptime}, leveraging server-side pagination to decrease data transfer costs by \textbf{50\%}.}
-% \resumeItem{Scaled a distributed search and indexing pipeline to \textbf{10,000} concurrent index operations and \textbf{sub-100ms} search latency using RabbitMQ and Go consumer with goroutine worker pools on Google Compute Engine.}
-% \resumeItem{Delivered \textbf{95\%} data freshness for internship searches with a scheduled \textbf{Python} job-posting scraper for Algolia indexing, with \textbf{30\%} reduced operating costs from optimized execution timing to run only when needed, reduced computing resources.}
-% \resumeItemListEnd
-
 \resumeSubHeadingListStart
 \resumeSubheading
 {\textbf{Calple} \textnormal{$|$ \href{https://github.com/juhun32/calple}{GitHub} $|$ \href{https://www.calple.date}{calple.date}}} {}
@@ -197,25 +164,6 @@
 \resumeItem{Optimized \textbf{Firestore} access patterns to keep API latency \textbf{sub-150ms}, handling \textbf{2k+} daily requests.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
-
-% \resumeSubHeadingListStart
-% \resumeSubheading
-% {\textbf{Race Telemetry Analyzer} \textnormal{$|$ \href{https://github.com/juhun32/project-verstappen}{GitHub}}} {}
-% {{Python, Shared Memory API, OpenCV, AC/acsys module}}{}
-% \resumeItemListStart
-% \resumeItem{Built high-volume telemetry collector (\textbf{>5 GB/h}) streaming to \textbf{Kafka} and persisted in \textbf{ClickHouse} for analytical queries.}
-% \resumeItem{Automated alerting on latency anomalies with \textbf{Prometheus Rules}, keeping processing delays under \textbf{250} ms.}
-% \resumeItemListEnd
-% \resumeSubHeadingListEnd
-
-% \resumeSubHeading
-% {\textbf{Formulaba} $|$ \href{https://github.com/juhun32/f1-statistics}{GitHub} $|$ \href{https://www.formulaba.com}{formulaba.com}} {}
-% {{Three.js, SvelteKit, Flask, Llama}}
-% \resumeItemListStart
-% \resumeItem{Architected a robust backend using \textbf{Flask} to fetch, filter data from the OpenF1 and FastF1 API, for \textbf{100+} data tables and graphs.}
-% \resumeItem{Designed and developed an intuitive and user-friendly interface and interactive frontend using \textbf{React} and \textbf{Tailwind}, providing users with updated information of driver/constructor standings and comprehensive grand prix statistics.}
-% \resumeItem{Deployed a production-ready backend API with \textbf{99.9\% uptime} on Google Cloud Run utilizing Docker for containerization and leveraged Firebase for secure and \textbf{30\%} more cost efficient hosting of the React frontend compared to previous deployment.}
-% \resumeItemListEnd
 
 % -----------TECHNICAL SKILLS-----------
 
