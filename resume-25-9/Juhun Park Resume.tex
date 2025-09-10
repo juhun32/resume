@@ -15,7 +15,7 @@
 \usepackage{setspace}
 \input{glyphtounicode} % PDF output to ensure proper mapping of glyphs to Unicode characters
 % \linespread{0.8}
-\setstretch{1.15}
+\setstretch{1.05}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -79,7 +79,7 @@
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.00in, rightmargin=-0.2in, label={}]\vspace{3pt}}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-10pt}}
 \newcommand{\resumeItemListStart}{\vspace{3pt}\begin{itemize}[leftmargin=0.15in, rightmargin=0.15in]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
@@ -112,23 +112,19 @@
 {\textbf{Honors: }{\$20,000 Merit Scholarship Recipient}}
 \resumeSubHeadingListEnd
 
-\vspace{-10pt}
-
 % -----------WORK EXPERIENCE-----------
 
 \section{Experience}
 \resumeSubHeadingListStart
 \resumeSubheading
-{Google Developer Group} {Apr 2025 - Present}
+{Google Developer Groups} {Apr 2025 - Present}
 {Technical Lead, George Mason University} {Remote}
 \resumeItemListStart
 \resumeItem{Developed a scalable \textbf{Next.js, Node.js, RESTful APIs} dashboard that manages event details and meeting schedules.}
 \resumeItem{Led a community of \textbf{50+} developers; defined roadmaps, ran \textbf{Agile} sprints with Git/GitHub to deliver 3 full-stack features.}
 \resumeItem{Partnered with design and product leads to scope requirements and review PRs, improving team velocity and code quality.}
 \resumeItemListEnd
-\resumeSubHeadingListEnd
 
-\resumeSubHeadingListStart
 \resumeSubheading
 {Northwestern University - Kellogg Alumni Group} {Jul 2025 - Aug 2025}
 {Software Engineer Intern} {Remote}
@@ -137,9 +133,7 @@
 \resumeItem{Designed \textbf{PostgreSQL schema} and \textbf{SQL functions} on Supabase, with performant query execution time of \textbf{sub-5ms}.}
 \resumeItem{Implemented \textbf{CDN} + \textbf{Redis} caching and REST endpoints, offloading \textbf{95\%} of reads and cutting latency to \textbf{sub-150ms}.}
 \resumeItemListEnd
-\resumeSubHeadingListEnd
 
-\resumeSubHeadingListStart
 \resumeSubheading
 {Copium.dev} {Jan 2025 - Jun 2025}
 {Co-Founder} {Remote}
@@ -152,26 +146,31 @@
 \resumeSubHeadingListEnd
 
 % -----------PROJECTS-----------
-
 \section{Projects}
+
 \resumeSubHeadingListStart
+\resumeSubheading
+{\textbf{ByDentalSmiles} \textnormal{$|$ \href{https://github.com/juhun32/ldfd}{GitHub}}} {2025}
+{{Next.js, Node.js}}{Landsdowne Family Dentistry, Alexandria, VA}
+\resumeItemListStart
+\resumeItem{Redesigned a local dental office website with \textbf{Next.js}, improved Lighthouse performance score from 75 to 95.}
+\resumeItem{Improved compared to previous, \textbf{FCP} 1.9s to 0.9s, \textbf{LCP} 6.4s to 2.2s, \textbf{TBT} 130ms to 30ms, \textbf{Speed Index} 2.7s to 0.9s.}
+\resumeItemListEnd
+
 \resumeSubheading
 {\textbf{Calple} \textnormal{$|$ \href{https://github.com/juhun32/calple}{GitHub} $|$ \href{https://www.calple.date}{calple.date}}} {}
 {{Next.js, Node.js, Go, Firestore, Docker, GCP Cloud Run}}{}
 \resumeItemListStart
 \resumeItem{Built a collaborative relationship management app with shared calendars, cycle tracking, and real-time synced maps.}
 \resumeItem{Exposed Golang \textbf{REST} APIs and deployed \textbf{30MB} image to \textbf{Cloud Run}, sustaining \textbf{99.9\%} uptime with autoscaling.}
-\resumeItem{Optimized \textbf{Firestore} access patterns to keep API latency \textbf{sub-150ms}, handling \textbf{2k+} daily requests.}
+\resumeItem{Optimized \textbf{Firestore} access patterns to keep API latency \textbf{sub-150ms}, handling \textbf{1k+} daily API requests.}
 \resumeItemListEnd
-\resumeSubHeadingListEnd
 
-\resumeSubHeadingListStart
 \resumeSubheading
 {\textbf{Project Verstappen} \textnormal{$|$ \href{https://github.com/juhun32/project-verstappen}{GitHub}}} {}
 {{Python, Shared Memory API, OpenCV, AC/acsys module (Assetto Corsa Internal API)}}{}
 \resumeItemListStart
-\resumeItem{Built high-volume telemetry collector (\textbf{5 GB/h}) streaming to \textbf{Kafka} and persisted in \textbf{ClickHouse} for analytical queries.}
-\resumeItem{Automated alerting on latency anomalies with \textbf{Prometheus Rules}, keeping processing delays under \textbf{250} ms.}
+\resumeItem{Implemented a real-time Assetto Corsa telemetry pipeline, streamed events to \textbf{Kafka} for web based interactive analysis.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
