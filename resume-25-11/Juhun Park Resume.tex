@@ -87,7 +87,7 @@
 
 \begin{document}
 
-% -----------HEADING-----------
+% Header
 
 \begin{center}
   \textbf{\Huge \scshape {Juhun Park}} \\ \vspace{3pt}
@@ -101,10 +101,11 @@
 
 \vspace{-10pt}
 
-% -----------EDUCATION-----------
+% Education
 
 \section{Education}
 \resumeSubHeadingListStart
+
 \resumeSubheading
 {George Mason University}{Expected May 2027}
 {Bachelor of Science in Computer Science}{GPA: 3.9}
@@ -112,74 +113,73 @@
 {\textbf{Honors: }{\$20,000 Merit Scholarship Recipient}}
 \resumeSubHeadingListEnd
 
-% -----------WORK EXPERIENCE-----------
+% Work experience
 
 \section{Experience}
 \resumeSubHeadingListStart
+
 \resumeSubheading
-{Google Developer Groups} {Jul 2025 - Present}
-{Technical Lead, George Mason University} {Remote}
+{Google Developer Groups} {Aug 2025 - Present}
+{Technical Lead, George Mason University} {Fairfax, VA}
 \resumeItemListStart
-\resumeItem{Developing a scalable Next.js dashboard that manages event details and meeting schedules.}
-\resumeItem{Leading a community of 50+ developers; running Agile sprints with GitHub to deliver 2 full-stack products for GMU.}
+\resumeItem{Architected a course scheduler with Go and PostgreSQL to ingest and manage 10,000+ university course sections.}
+\resumeItem{Engineered a data pipeline using Python and GitHub Actions to automatically scrape course catalog with 99.9\% accuracy.}
+\resumeItem{Integrated backtracking algorithm to solve the course scheduling problem, generating conflict free timetables in sub-2s.}
+\resumeItem{Scaled with RabbitMQ and Redis for asynchronous processing, supporting 100+ concurrent users without degradation.}
 \resumeItemListEnd
 
 \resumeSubheading
-{Northwestern University} {Jul 2025 - Aug 2025}
-{Software Engineer Intern} {Remote}
+{Northwestern University} {Jun 2025 - Aug 2025}
+{Software Engineer Intern} {Evanston, IL}
 \resumeItemListStart
-\resumeItem{Launched a ASP.NET Minimal API \& SvelteKit MVP, serving 1500 users with 99.9\% uptime on Cloudflare.}
-\resumeItem{Designed PostgreSQL schema and SQL functions on Supabase, with performant query execution time of sub-5ms.}
-\resumeItem{Implemented CDN + Redis caching and REST endpoints, offloading 95\% of reads and cutting latency to sub-150ms.}
+\resumeItem{Built an alumni networking platform with SvelteKit and ASP.NET, serving 150 users with 99.9\% uptime on Cloudflare.}
+\resumeItem{Engineered a PostgreSQL schema, optimized indexes SQL functions on Supabase achieving p99 sub-5ms query latency.}
+\resumeItem{Implemented a multi-tier caching strategy using Cloudflare CDN and a Redis cache, offloading 95\% of read requests.}
 \resumeItemListEnd
 
-\resumeSubheading
-{George Mason University} {Sep 2024 - Dec 2024}
-{Software Engineer Intern} {Remote}
-\resumeItemListStart
-\resumeItem{Implemented JWT Google OAuth, refactored Django service into modular apps, improving API throughput by 30\%.}
-\resumeItem{Wrote unit tests with Pytest, increasing CRUD API test coverage from 20\% to 85\%, caught 2 critical issues pre-launch.}
-\resumeItemListEnd
 \resumeSubHeadingListEnd
 
-% -----------PROJECTS-----------
+% Projects
 \section{Projects}
 
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{Copium.dev} {Jan 2025 - Jun 2025}
-{Co-Founder} {Remote}
+{Copium.dev \textnormal{$|$ \href{https://github.com/juhun32/copium}{GitHub} $|$ \href{https://www.copium.dev}{copium.dev}}} {}
+{Go, TypeScript, SvelteKit, PostgreSQL, Algolia, GCP, AWS, Cloudflare} {}
 \resumeItemListStart
-\resumeItem{Merger with Cvrve (2025), launched a tech career management platform serving 400k users, 90k job applications daily.}
-\resumeItem{Deployed 10k+ events/s analytics pipeline (Kafka to ClickHouse, Redis) in Go as Docker containers on AWS ECS.}
-\resumeItem{Set up an object storage pipeline using Cloudflare R2, offloading 57GB/month from S3 and eliminating egress costs.}
-\resumeItem{Automated builds and deployments with Terraform + GitHub Actions, achieving sub-10min deployment times.}
+\resumeItem{Built an internship management platform with SvelteKit and PostgreSQL, processing 2000+ weekly applications.}
+% \resumeItem{Scaled real-time analytics pipeline to 1k+ events/s with Kafka and Go consumers on AWS ECS, feeding into ClickHouse.}
+\resumeItem{Delivered an 80\% reduction in query latency for BigQuery analytics by leveraging CQRS architecture.}
+\resumeItem{Set up an object storage pipeline using Cloudflare R2 and Go, offloading S3 and eliminating 100\% of AWS egress costs.}
+\resumeItem{Implemented compensating transactions for consistency across 3 data stores with a 99.9\% successful retry rate.}
 \resumeItemListEnd
 
 \resumeSubheading
-{\textbf{Formulaba} \textnormal{$|$ \href{https://github.com/juhun32/ldfd}{GitHub}}} {2025}
-{{Next.js, Node.js}}{Landsdowne Family Dentistry, Alexandria, VA}
-\resumeItemListStart
-\resumeItem{Redesigned a local dental office website with Next.js, improved Lighthouse performance score from 75 to 95.}
-\resumeItem{Improved compared to previous, FCP 1.9s to 0.9s, LCP 6.4s to 2.2s, TBT 130ms to 30ms, Speed Index 2.7s to 0.9s.}
-\resumeItemListEnd
-
-\resumeSubheading
-{\textbf{Californian Temple} \textnormal{$|$ \href{https://github.com/juhun32/calple}{GitHub} $|$ \href{https://www.calple.date}{calple.date}}} {}
+{Californian Temple \textnormal{$|$ \href{https://github.com/juhun32/calple}{GitHub} $|$ \href{https://www.calple.date}{calple.date}}} {}
 {{Go, Next.js, Firestore, Docker, GCP Cloud Run}}{}
 \resumeItemListStart
-\resumeItem{Built a collaborative relationship management app with shared calendars, cycle tracking, and real-time synced maps.}
-\resumeItem{Exposed Golang REST APIs and deployed 30MB image to Cloud Run, sustaining 99.9\% uptime with autoscaling.}
-\resumeItem{Optimized Firestore access patterns to keep API latency sub-150ms, handling 1k+ daily API requests.}
+\resumeItem{Implemented an event pipeline using GCP Pub/Sub to ingest disparate streams into a unified Firestore state model.}
+\resumeItem{Developed a Go microservice to consume event streams, merging data real-time to predict and identify schedule conflicts.}
+\resumeItem{Achieved sub-100ms latency for event synchronization by optimizing Firestore listener patterns \& gRPC communication.}
 \resumeItemListEnd
 
 \resumeSubheading
-{\textbf{Sequantial} \textnormal{$|$ \href{https://github.com/juhun32/project-verstappen}{GitHub}}} {}
-{{Python, Shared Memory API, OpenCV, AC/acsys module (Assetto Corsa Internal API)}}{}
+{Sequantial \textnormal{$|$ \href{https://github.com/juhun32/project-verstappen}{GitHub}}} {}
+{{Python, Kafka, gRPC, Docker, Git, AC/acsys (Assetto Corsa Internal API)}}{}
 \resumeItemListStart
-\resumeItem{Architected a real-time Assetto Corsa telemetry pipeline, streamed events to Kafka for web based interactive analysis.}
+\resumeItem{Built a Python data pipeline to ingest real-time telemetry from Assetto Corsa, interfacing directly with the memory API.}
+\resumeItem{Streamed 10k+ events/s to a Kafka topic, enabling decoupled real-time analytics for live Next.js dashboards.}
+\resumeItem{Utilized Kafka's partitioning and consumer groups to ensure zero data loss during connection loss, for fault tolerance.}
 \resumeItemListEnd
+
+\resumeSubheading
+{INITech - EPDM} {}
+{Next.js}{}
+\resumeItemListStart
+\resumeItem{ABC.}
+\resumeItemListEnd
+
 \resumeSubHeadingListEnd
 
 % -----------TECHNICAL SKILLS-----------
@@ -190,7 +190,7 @@
 % \resumeItemThin{\textbf{Libraries \& Frameworks: }{React, SvelteKit, FastAPI, Django, Flask, .NET, PostgreSQL, Pytest}}\\
 % \resumeItemThin{\textbf{Web \& APIs: } HTTP, HTML/DOM, CSS, AJAX, REST APIs, JSON, OAuth/OIDC}\\
 \resumeItemThin{\textbf{Frameworks: } React, Node.js, Django, Flask, Next.js, SvelteKit, FastAPI, .NET, PostgreSQL}\\
-\resumeItemThin{\textbf{Tools \& Platforms: }{Git, GCP, Vercel, Cloudflare, Pub/Sub, AWS, Linux, RabbitMQ, Algolia, Docker, Redis, Kafka}}\\
+\resumeItemThin{\textbf{Tools \& Platforms: }{Git, GCP, Vercel, Cloudflare, Pub/Sub, AWS, Linux, RabbitMQ, Docker, Redis, Kafka}}\\
 \resumeItemListEnd
 
 \end{document}
