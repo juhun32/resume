@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  16 DEC 2025 23:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  16 DEC 2025 23:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/DevFiles/resume/resume-25-11/Juhun Park Resume.tex"
-(c:/DevFiles/resume/resume-25-11/Juhun Park Resume.tex
+**"c:/DevFiles/resume/resume-25-12/Juhun Park Resume.tex"
+(c:/DevFiles/resume/resume-25-12/Juhun Park Resume.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -273,7 +273,7 @@ LaTeX Info: Redefining \hbar on input line 50.
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (c:/DevTools/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
 Package hyperref Info: Option `colorlinks' set `true' on input line 23.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 88.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 96.
  (c:/DevTools/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (c:/DevTools/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -283,24 +283,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./Juhun Park Resume.aux)
 \openout1 = `"Juhun Park Resume.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
  (c:/DevTools/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count288
@@ -315,44 +315,44 @@ LaTeX Font Info:    ... okay on input line 88.
 \makeMPintoPDFobject=\count293
 \everyMPtoPDFconversion=\toks27
 )
-Package hyperref Info: Link coloring ON on input line 88.
+Package hyperref Info: Link coloring ON on input line 96.
  (./Juhun Park Resume.out) (./Juhun Park Resume.out)
 \@outlinefile=\write3
 \openout3 = `"Juhun Park Resume.out"'.
 
 \big@size=\dimen162
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 95.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 103.
  (c:/DevTools/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 95.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 103.
  (c:/DevTools/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 95.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 103.
  (c:/DevTools/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 95.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 103.
  (c:/DevTools/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 95.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 103.
  (c:/DevTools/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 103.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 103.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 113.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 103.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 121.
  (c:/DevTools/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
 
 
 [1
@@ -366,15 +366,15 @@ Package rerunfilecheck Info: File `"Juhun Park Resume".out' has not changed.
 (rerunfilecheck)             Checksum: 8178769A591DAE54593BE5DC5893BD68;390.
  ) 
 Here is how much of TeX's memory you used:
- 11129 strings out of 473189
- 177131 string characters out of 5719952
- 611699 words of memory out of 5000000
- 34220 multiletter control sequences out of 15000+600000
+ 11130 strings out of 473189
+ 177151 string characters out of 5719952
+ 609732 words of memory out of 5000000
+ 34221 multiletter control sequences out of 15000+600000
  583336 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,327b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/DevTools/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/DevTools/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/DevTools/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "Juhun Park Resume.pdf" (1 page, 48472 bytes).
+Output written on "Juhun Park Resume.pdf" (1 page, 48479 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
