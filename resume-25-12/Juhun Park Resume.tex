@@ -141,7 +141,7 @@
 {Software Engineer Intern} {Evanston, IL}
 \resumeItemListStart
 \resumeItem{Built an alumni networking platform with SvelteKit and ASP.NET, serving 150 users with 99.9\% uptime on Cloudflare.}
-\resumeItem{Engineered a PostgreSQL schema, optimized indexes, SQL functions on Supabase achieving p99 sub-5ms query latency.}
+\resumeItem{Designed a PostgreSQL schema, optimized indexes, SQL functions on Supabase achieving p99 sub-5ms query latency.}
 \resumeItem{Configured a multi-tier caching strategy using Cloudflare CDN and a Redis cache, offloading 95\% of read requests.}
 \resumeItemListEnd
 
@@ -167,19 +167,20 @@
 {Californian Temple \textnormal{$|$ \href{https://github.com/juhun32/calple}{GitHub} $|$ \href{https://www.calple.date}{calple.date}}}
 {{Go, Next.js, Firestore, Docker, GCP Cloud Run}}
 \resumeItemListStart
-\resumeItem{Designed an event pipeline using GCP Pub/Sub to ingest disparate streams into a unified Firestore state model.}
+\resumeItem{Delopyed an event pipeline using GCP Pub/Sub to ingest disparate streams into a unified Firestore state model.}
 \resumeItem{Developed a Go microservice to consume event streams, merging data real-time to predict and identify schedule conflicts.}
 \resumeItem{Achieved sub-100ms latency for event synchronization by optimizing Firestore listener patterns \& gRPC communication.}
 \resumeItemListEnd
 
 \resumeProjectHeading
 {Sequantial \textnormal{$|$ \href{https://github.com/juhun32/project-verstappen}{GitHub}}}
-{{Python, Kafka, gRPC, Docker, Git, AC/acsys (Assetto Corsa Internal API)}}
+{{Golang, WebSockets, Docker, OCI (ARM64), Windows API (Shared Memory)}}
 \resumeItemListStart
-\resumeItem{Coded a data pipeline to ingest real-time telemetry from Assetto Corsa, interfacing directly with the Shared Memory API.}
-\resumeItem{Architected a high-throughput telemetry pipeline using Kafka to decouple game loop ingestion from data processing.}
+\resumeItem{Engineered a high-performance telemetry pipeline in Go to ingest real-time physics data from Assetto Corsa via DMA.}
+\resumeItem{Architected a concurrent distribution system with WebSockets \& Go routines, achieving sub-10ms states synchronization.}
+\resumeItem{Optimized network efficiency with client-side batching and data aggregation, maintaining zero-cost operation costs.}
 % \resumeItem{Utilized Kafka's consumer groups to ensure zero data loss during connection loss, for fault tolerance.}
-\resumeItem{Leveraged Kafka's keyed partitioning to guarantee sequential ordering of events, ensuring accuracy despite network loss.}
+% \resumeItem{Leveraged Kafka's keyed partitioning to guarantee sequential ordering of events, ensuring accuracy despite network loss.}
 \resumeItemListEnd
 
 % \resumeSubheading
