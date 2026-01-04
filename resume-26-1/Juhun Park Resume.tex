@@ -1,0 +1,207 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym} % additional symbols for technical documents
+\usepackage[empty]{fullpage}
+\usepackage{titlesec} % custom format of section titles
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem} % custom list environments
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr} % custom headers and footers
+\usepackage[english]{babel} % multilingual support
+\usepackage{tabularx} 
+\usepackage{mathptmx} % decfault font used: Times New Roman
+\usepackage{setspace}
+\input{glyphtounicode} % PDF output to ensure proper mapping of glyphs to Unicode characters
+% \linespread{0.8}
+\setstretch{1}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+% fancy
+\pagestyle{fancy}
+\fancyhf{} % clear header and footer fields
+\fancyfoot{}
+\setlength{\footskip}{1cm}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.5in}
+% \addtolength{\textheight}{0in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-10pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% ==============================
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1}
+  }
+}
+
+\newcommand{\resumeItemThin}[1]{
+  \item{
+    {#1 \vspace{-5pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+    \begin{minipage}[t]{0.985\textwidth}
+      \textbf{#1} \hfill #2 \\
+      {#3} \hfill {#4}
+    \end{minipage}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{minipage}[t]{0.985\textwidth}
+      \textbf{#1} \hfill \\
+      {#2}
+    \end{minipage}\vspace{-5pt}
+}
+
+\titlespacing{\section}{0pt}{17pt}{13pt}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.00in, rightmargin=-0.2in, label={}]\vspace{3pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-10pt}}
+\newcommand{\resumeItemListStart}{\vspace{3pt}\begin{itemize}[leftmargin=0.15in, rightmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% ==============================
+
+\begin{document}
+
+% Header
+
+\begin{center}
+  \textbf{\Huge \scshape {Juhun Park}} \\ \vspace{3pt}
+  % No sponsorship needed, F1 OPT \\
+   202-924-4546 $|$
+  \href{mailto:juhunpark32@gmail.com}{juhunpark32@gmail.com} $|$
+  \href{https://www.juhunpark.me/}{juhunpark.me} $|$
+  \href{https://linkedin.com/in/juhun-park}{linkedin.com/in/juhun-park} $|$
+  \href{https://github.com/juhun32}{github.com/juhun32} \\
+\end{center}
+
+\vspace{-10pt}
+
+% Education
+
+\section{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{George Mason University}{Expected May 2027}
+{Bachelor of Science in Computer Science}{GPA: 4.0}
+\resumeItem{\textbf{Relevant Coursework: } Data Structures, Low-level Programming, Computer Systems and Programm} \\
+{\textbf{Honors: }{\$20,000 Merit Scholarship Recipient}} \\
+{\textbf{Teaching Assistant: } CS 310 - Data Structures}
+\resumeSubHeadingListEnd
+
+% Work experience
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Google Developer Groups} {Aug 2025 - Present}
+{Lead Developer, George Mason University} {Fairfax, VA}
+\resumeItemListStart
+\resumeItem{Architected a course scheduler with Go and PostgreSQL to ingest and manage 10,000+ university course sections.}
+\resumeItem{Integrated backtracking algorithm to solve the constraint satisfaction problem, generating conflict-free timetables.}
+\resumeItem{Engineered a data pipeline using Python and GitHub Actions to automatically scrape course catalog with 99.9\% accuracy.}
+\resumeItem{Scaled with RabbitMQ and Redis for asynchronous processing, supporting 100+ concurrent users without degradation.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Northwestern University} {Jun 2025 - Aug 2025}
+{Software Engineer Intern} {Evanston, IL}
+\resumeItemListStart
+\resumeItem{Built an alumni networking platform with SvelteKit and ASP.NET, serving 150 users with 99.9\% uptime on Cloudflare.}
+\resumeItem{Designed a PostgreSQL schema, optimized indexes, SQL functions on Supabase achieving p99 sub-5ms query latency.}
+\resumeItem{Configured a multi-tier caching strategy using Cloudflare CDN and a Redis cache, offloading 95\% of read requests.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% Projects
+\section{Projects}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{Copium.dev \textnormal{$|$ \href{https://github.com/juhun32/copium}{GitHub} $|$ \href{https://www.copium.dev}{copium.dev}}}
+{{Go, TypeScript, SvelteKit, PostgreSQL, Algolia, GCP, AWS, Cloudflare}}
+\resumeItemListStart
+\resumeItem{Launched an internship management platform with SvelteKit and PostgreSQL, processing 2000+ weekly applications.}
+% \resumeItem{Scaled real-time analytics pipeline to 1k+ events/s with Kafka and Go consumers on AWS ECS, feeding into ClickHouse.}
+\resumeItem{Delivered an 80\% reduction in query latency for BigQuery analytics by leveraging CQRS architecture.}
+\resumeItem{Migrated media storage to Cloudflare R2, architecting a zero-egress pipeline without incurring AWS data transfer fees.}
+\resumeItem{Implemented fault-tolerant compensating transactions for consistency across 3 data stores with automated retries.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{Californian Temple \textnormal{$|$ \href{https://github.com/juhun32/calple}{GitHub} $|$ \href{https://www.calple.date}{calple.date}}}
+{{Go, Next.js, Firestore, Docker, GCP Cloud Run}}
+\resumeItemListStart
+\resumeItem{Delopyed an event pipeline using GCP Pub/Sub to ingest disparate streams into a unified Firestore state model.}
+\resumeItem{Developed a Go microservice to consume event streams, merging data real-time to predict and identify schedule conflicts.}
+\resumeItem{Achieved sub-100ms latency for event synchronization by optimizing Firestore listener patterns \& gRPC communication.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{Sequantial \textnormal{$|$ \href{https://github.com/juhun32/project-verstappen}{GitHub}}}
+{{Golang, WebSockets, Docker, OCI (ARM64), Windows API (Shared Memory)}}
+\resumeItemListStart
+\resumeItem{Engineered a high-performance telemetry pipeline in Go to ingest real-time physics data from Assetto Corsa via DMA.}
+\resumeItem{Architected a concurrent distribution system with WebSockets \& Go routines, achieving sub-10ms states synchronization.}
+\resumeItem{Optimized network efficiency with client-side batching and data aggregation, maintaining zero-cost operation costs.}
+% \resumeItem{Utilized Kafka's consumer groups to ensure zero data loss during connection loss, for fault tolerance.}
+% \resumeItem{Leveraged Kafka's keyed partitioning to guarantee sequential ordering of events, ensuring accuracy despite network loss.}
+\resumeItemListEnd
+
+% \resumeSubheading
+% {INITech - EPDM} {}
+% {Next.js}{}
+% \resumeItemListStart
+% \resumeItem{ABC.}
+% \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% -----------TECHNICAL SKILLS-----------
+
+\section{Technical Skills}
+\resumeItemListStart
+\resumeItemThin{\textbf{Languages: }{Python, TypeScript, JavaScript, Go, Java, SQL, C, C\#}}\\
+% \resumeItemThin{\textbf{Libraries \& Frameworks: }{React, SvelteKit, FastAPI, Django, Flask, .NET, PostgreSQL, Pytest}}\\
+% \resumeItemThin{\textbf{Web \& APIs: } HTTP, HTML/DOM, CSS, AJAX, REST APIs, JSON, OAuth/OIDC}\\
+\resumeItemThin{\textbf{Frameworks: } React, Node.js, Django, Flask, Next.js, SvelteKit, FastAPI, .NET, PostgreSQL}\\
+\resumeItemThin{\textbf{Tools \& Platforms: }{Git, GCP, Vercel, Cloudflare, Pub/Sub, AWS, Linux, RabbitMQ, Docker, Redis, Kafka}}\\
+\resumeItemListEnd
+
+\end{document}
