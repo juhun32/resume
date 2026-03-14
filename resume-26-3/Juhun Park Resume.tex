@@ -15,7 +15,7 @@
 \usepackage{setspace}
 \input{glyphtounicode} % PDF output to ensure proper mapping of glyphs to Unicode characters
 % \linespread{0.8}
-\setstretch{1}
+\setstretch{0.9}
 \hypersetup{
 	colorlinks=true,
 	linkcolor=blue,
@@ -152,10 +152,10 @@
 \resumeSubHeadingListStart
 
 \resumeSubHeading
-	{George Mason University}{Expected May 2027}
+	{George Mason University}{Expected Dec 2029}
 	{Bachelor of Science in Computer Science}{GPA: 4.0}
 	\resumeItemListStart
-		\resumeItemThin{\textbf{Relevant Coursework: } Data Structures, Low-level Programming, Computer Systems and Programming}
+		\resumeItemThin{\textbf{Relevant Coursework: } Data Structures, Low-level Programming, Computer Systems \& Programming}
 		\resumeItemThin{\textbf{Honors: }{\$20,000 Merit Scholarship Recipient}}
 		\resumeItemThin{\textbf{Teaching Assistant: } CS 310 -- Data Structures}
 	\resumeItemListEnd
@@ -167,10 +167,11 @@
 \resumeSubHeadingListStart
 
 \resumeExperienceHeading
-	{Army, Republic of Korea} {June 2026 -- Febuary 2028}
+	{Army, Republic of Korea} {Jun 2026 -- Feb 2028}
 	{Sergeant} {TBD, Republic of Korea}
 	\resumeItemListStart
-		\resumeItem{Coordinated with a platoon of 30+ personnel to execute daily logistics and time-sensitive training exercises.}
+		\resumeItem{Coordinated with a platoon of 30+ personnel to execute daily logistics and time-sensitive training procedures.}
+		\resumeItem{Adhered to operational procedures and risk-management protocols to maintain unit readiness and safety standards.}
 	\resumeItemListEnd
 
 \resumeExperienceHeading
@@ -179,7 +180,9 @@
 	\resumeItemListStart
 		\resumeItem{Architected a course scheduler with Go and PostgreSQL to ingest and manage 10,000+ university course sections.}
 		% \resumeItem{Integrated backtracking algorithm to solve the constraint satisfaction problem, generating conflict-free timetables.}
-		\resumeItem{Engineered a data pipeline using Python and GitHub Actions to automatically scrape course catalog with 99.9\% accuracy}
+		\resumeItem{Engineered a data pipeline using Python and GitHub Actions to automatically scrape course catalog with 99.9\% accuracy.}
+		\resumeItem{Directed 2 open-source projects, established standard CI/CD workflow, contribution guidelines \& code review processes.}
+		\resumeItem{Facilitated technical workshops covering GitHub workflows, cloud services, and full-stack deployment pipelines.}
 	\resumeItemListEnd
 
 \resumeExperienceHeading
@@ -198,17 +201,17 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-	{Echo: Distributed LLM Gateway \& Semantic Cache \textnormal{$|$ \small{\href{https://github.com/juhun32/castle-postdate}{GitHub}} \normalsize{$|$} \small{\href{https://www.calple.date}{calple.date}}}}
+	{Echo: Distributed LLM Gateway \& Semantic Cache \textnormal{$|$ \small{\href{https://github.com/juhun32/echo}{GitHub}} \normalsize{$|$} \small{\href{https://echo-lac-gamma.vercel.app/}{Demo}}}}
 	{{Go, Next.js, Firestore, Docker, GCP Cloud Run}}
 	\resumeItemListStart
 		\resumeItem{Architected an AI gateway in Go that reduces LLM inference costs through semantic deduplication \& request routing.}
-		\resumeItem{Engineered an embedding pipeline \& vector generation from the client using Transformers.js, eliminatating server load.}
+		\resumeItem{Engineered an embedding pipeline \& vector generation from the client using Transformers.js, eliminating server load.}
 		\resumeItem{Designed a synchronization protocol using S3 and goroutines, enabling load-balanced instances to share database cluster.}
 		\resumeItem{Solved data leakage and stale context issues by implementing vector partitioning and semantic-complexity routing.}
 	\resumeItemListEnd
 
 \resumeProjectHeading
-    {\textbf{Sequential: Telemetry Analytics} \textnormal{$|$ \small{\href{https://github.com/juhun32/sequential}{GitHub}}}}
+    {Sequential: Telemetry Analytics \textnormal{$|$ \small{\href{https://github.com/juhun32/sequential}{GitHub}}}}
     {{Go, WebSockets, Docker, OCI (ARM64), Windows API (Shared Memory)}}
     \resumeItemListStart
         \resumeItem{Engineered a high-performance telemetry pipeline in Go to ingest real-time physics data via zero-copy shared memory.}
